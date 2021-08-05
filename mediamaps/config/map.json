@@ -1,0 +1,3089 @@
+{
+  "pages": [
+    {
+      "page": 1
+    },
+    {
+      "page": 2
+    },
+    {
+      "page": 3
+    },
+    {
+      "page": 4
+    },
+    {
+      "page": 5
+    },
+    {
+      "page": 6
+    },
+    {
+      "page": 7
+    },
+    {
+      "page": 8
+    },
+    {
+      "page": 9
+    },
+    {
+      "page": 10,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakPolice.geojson",
+          "expressedAttribute": "age",
+          "displayAttributes": [
+            "name",
+            "age",
+            "gender",
+            "race",
+            "cause"
+          ],
+          "renderOnLoad": true,
+          "layerOptions": {
+          "color": "#FFF"
+        },
+          "techniques": [
+            {
+              "type": "point",
+              "size": 2
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 11,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+          "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakPolice.geojson",
+          "expressedAttribute": "age",
+          "displayAttributes": [
+            "name",
+            "age",
+            "gender",
+            "race",
+            "cause"
+          ],
+          "renderOnLoad": true,
+          "layerOptions": {
+            "color": "#53308F"
+          },
+          "techniques": [
+            {
+              "type": "point",
+              "size": 2
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 12,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "syria deaths",
+          "source": "data/aleppoInd.geojson",
+          "expressedAttribute": "ID",
+          "displayAttributes": [
+            "Description"
+          ],
+          "renderOnLoad": true,
+          "layerOptions": {
+          "color": "#fff"
+          },
+          "techniques": [
+            {
+              "type": "point",
+              "size": 2
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 13,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+          "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "syria deaths",
+          "source": "data/aleppoInd.geojson",
+          "expressedAttribute": "ID",
+          "displayAttributes": [
+            "Description"
+          ],
+          "renderOnLoad": true,
+          "layerOptions": {
+            "color": "#53308F"
+          },
+          "techniques": [
+            {
+              "type": "point",
+              "size": 2
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 14
+    },
+    {
+      "page": 15,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "syria deaths",
+          "source": "data/aleppoInd.geojson",
+          "expressedAttribute": "ID",
+          "displayAttributes": [
+            "Name",
+            "Age",
+            "Sex",
+            "Status",
+            "Cause"
+          ],
+          "renderOnLoad": true,
+          "layerOptions": {
+          "color": "#609dff"
+          },
+          "techniques": [
+            {
+              "type": "point",
+              "symbol": "img/iconsCustom/personLight.png",
+              "size": 8
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 16,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+          "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "syria deaths",
+          "source": "data/aleppoInd.geojson",
+          "expressedAttribute": "ID",
+          "displayAttributes": [
+            "Name",
+            "Age",
+            "Sex",
+            "Status",
+            "Cause"
+          ],
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "point",
+              "symbol": "img/iconsCustom/person.png",
+              "size": 8
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 17,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakPolice.geojson",
+          "expressedAttribute": "age",
+          "displayAttributes": [
+            "Description"
+          ],
+          "renderOnLoad": true,
+          "layerOptions": {
+          "color": "#609dff"
+        },
+          "techniques": [
+            {
+              "type": "point",
+              "symbol": "img/iconsCustom/personLight.png",
+              "size": 8
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 18,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+          "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakPolice.geojson",
+          "expressedAttribute": "age",
+          "displayAttributes": [
+            "Description"
+          ],
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "point",
+              "symbol": "img/iconsCustom/person.png",
+              "size": 8
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 19
+    },
+    {
+      "page": 20,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakAggregated.geojson",
+          "expressedAttribute": "Count",
+          "displayAttributes": [
+            "Count",
+            "Age (average)",
+            "Male (%)",
+            "Minors (%)",
+            "Gun deaths (%)"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "black",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "choropleth",
+              "classification": "equal interval",
+              "classes": "Purples.6"
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 21,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+            "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakAggregated.geojson",
+          "expressedAttribute": "Count",
+          "displayAttributes": [
+            "Count",
+            "Age (average)",
+            "Male (%)",
+            "Minors (%)",
+            "Gun deaths (%)"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "black",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "choropleth",
+              "classification": "equal interval",
+              "classes": "Purples.6"
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 22,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "aleppo deaths",
+          "source": "data/aleppoAggregated.geojson",
+          "expressedAttribute": "Classes",
+          "displayAttributes": [
+            "Description"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "black",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "choropleth",
+              "classification": "equal interval",
+              "classes": "Purples.6"
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 23,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+          "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "aleppo deaths",
+          "source": "data/aleppoAggregated.geojson",
+          "expressedAttribute": "Classes",
+          "displayAttributes": [
+            "Description"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "black",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "choropleth",
+              "classification": "equal interval",
+              "classes": "Purples.6"
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 24
+    },
+    {
+      "page": 25,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "aleppo deaths",
+          "source": "data/aleppoAggregated.geojson",
+          "expressedAttribute": "Classes",
+          "displayAttributes": [
+            "Count",
+            "Age (average)",
+            "Male (%)",
+            "Civilian (%)",
+            "Shelling (%)"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "#fff",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "proportional symbol",
+              "classification": "equal interval",
+              "classes": [0,5,10,15,20,25]
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 26,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          36.204745,
+          37.156479
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+          "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+          }
+      ],
+      "dataLayers": [
+        {
+          "name": "aleppo deaths",
+          "source": "data/aleppoAggregated.geojson",
+          "expressedAttribute": "Classes",
+          "displayAttributes": [
+            "Count",
+            "Age (average)",
+            "Male (%)",
+            "Civilian (%)",
+            "Shelling (%)"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "#53308F",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "proportional symbol",
+              "classification": "equal interval",
+              "classes": [0,5,10,15,20,25]
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/aleppoSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 27,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSat",
+          "source": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakAggregated.geojson",
+          "expressedAttribute": "Count",
+          "displayAttributes": [
+            "Description"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "#fff",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "proportional symbol",
+              "classification": "equal interval",
+              "classes": [0,5,10,15,20,25]
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 28,
+      "library": "Leaflet",
+      "mapOptions": {
+        "legend": false,
+        "resetButton": false,
+        "center": [
+          37.785297,
+          -122.233216
+        ],
+        "zoom": 11,
+        "minZoom": 5,
+        "maxZoom": 18,
+        "maxBounds": [
+          [
+            -90,
+            -180
+          ],
+          [
+            90,
+            180
+          ]
+        ]
+      },
+      "baseLayers": [
+        {
+          "name": "baseSimple",
+            "source": "https://api.mapbox.com/styles/v1/nicklally/cj0bsdcbx00322rqh3gxfxc3q/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibmlja2xhbGx5IiwiYSI6ImNpdThpMzR5cjAwNjYyb3B0Y2d4dW56bHEifQ.0hi99X_KnEqM2MFOuBk1Tw"
+          }
+      ],
+      "dataLayers": [
+        {
+          "name": "police shootings",
+          "source": "data/oakAggregated.geojson",
+          "expressedAttribute": "Count",
+          "displayAttributes": [
+            "Description"
+          ],
+            "layerOptions": {
+            "fillOpacity": 0.8,
+            "color": "#53308F",
+            "weight": 0.5,
+            "opacity": 1
+          },
+          "renderOnLoad": true,
+          "techniques": [
+            {
+              "type": "proportional symbol",
+              "classification": "equal interval",
+              "classes": [0,5,10,15,20,25]
+            }
+          ]
+        },
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite1.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site1.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite2.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site2.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite3.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site3.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite4.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site4.png",
+							"size": 10
+						}
+					]
+				},
+        {
+					"name": "emergency locations",
+					"source": "data/oakSite5.geojson",
+					"expressedAttribute": "Id",
+					"displayAttributes": [
+						"Site"
+					],
+					"renderOnLoad": true,
+          "layerOptions": {
+          "opacity": 0.5
+        },
+					"techniques": [
+						{
+							"type": "point",
+              "symbol": "img/iconsCustom/site5.png",
+							"size": 10
+						}
+					]
+				}
+      ],
+      "interactions": {
+        "retrieve": {
+					"logging": true,
+					"toggle": false,
+					"interface": {
+						"popup": true,
+						"window": false
+					}
+				},
+        "zoom": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "touch": true,
+            "scrollWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "keyboard": true,
+            "widget": true
+          }
+        },
+        "pan": {
+          "logging": true,
+          "toggle": false,
+          "interface": {
+            "drag": true,
+            "keyboard": false,
+            "widget": false
+          }
+        },
+        "sequence": {
+          "dataLayers": [
+            "Zip"
+          ]
+        }
+      }
+    },
+    {
+      "page": 29
+    },
+    {
+      "page": 30
+    },
+    {
+      "page": 31
+    },
+    {
+      "page": 32
+    },
+    {
+      "page": 33
+    },
+    {
+      "page": 34
+    },
+    {
+      "page": 35
+    },
+    {
+      "page": 36
+    },
+    {
+      "page": 37
+    },
+    {
+      "page": 38
+    },
+    {
+      "page": 39
+    },
+    {
+      "page": 40
+    },
+    {
+      "page": 41
+    },
+    {
+      "page": 42
+    },
+    {
+      "page": 43
+    },
+    {
+      "page": 44
+    },
+    {
+      "page": 45
+    },
+    {
+      "page": 46
+    },
+    {
+      "page": 47
+    },
+    {
+      "page": 48
+    },
+    {
+      "page": 49
+    },
+    {
+      "page": 50
+    },
+    {
+      "page": 51
+    },
+    {
+      "page": 52
+    },
+    {
+      "page": 53
+    }
+  ]
+}

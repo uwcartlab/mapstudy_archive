@@ -1,0 +1,1323 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "Research Participant Information and Consent Form <i>(scroll down to review and agree to participate)</i></br></br>",
+              "ask": "<strong>Title of the Study: Mapping People: Using MapStudy to Understand Interactive Maps and the Symbolization of People</strong><br /><br /><strong>Principal Investigators:</strong><br />Robert E. Roth, PhD <br />375 Science Hall<br />550 N. Park Street<br />Madison, WI  53706<br />Phone: 608-262-1453; Email: reroth@wisc.edu<br /><br /><br /><strong>Description of Research</strong><br />You are invited to participate in a study aimed at improving interactive web maps. Specifically, the study investigates how people are represented in interactive maps.<br /><br /><strong>What will my participation involve?</strong><br />If you decide to participate in this research, you will review two different case studies that include interactive maps. With each case study, you will then be given a task to complete. After completing each task, you will respond to a survey of questions related to the case study, task, and the interactive map. The survey will take approximately 30 minutes to complete. You will be compensated $3 for your participation upon completing the survey.<br /><br /><strong>Are there any risks to me?</strong><br />Risk to participation is minimal. The case studies and interactive maps in this survey cover current news topics with no more detail than news outlets like the New York Times, for example. There are no foreseeable physical or mental risks to participation beyond those encountered in the normal course of everyday life.<br /><br /><strong>Are there any benefits to me?</strong><br />Your responses to the survey will be used to develop a better understanding of the design of interactive maps. <br /><br /><strong>How will my confidentiality be protected?</strong><br />No personally identifiable or sensitive information will be collected or maintained. Only group characteristics will be reported in publications of research findings.<br /><br /><strong>Whom should I contact if I have questions?</strong><br />You may ask any questions about the research at any time. If you have questions about the research after you leave today you should contact Robert E. Roth, PhD (PI) at 608-262-1453. If you are not satisfied with response of research team, have more questions, or want to talk with someone about your rights as a research participant, you should contact the Education Research and Social & Behavioral Science IRB Office at 608-263-2320. Your participation is completely voluntary and you can withdraw from the study at any time without compensation.<br /><br /><strong>If you do NOT agree to take part in this research study as outline above, please Exit this survey.</strong><br /><br /><strong>If you agree to take part in this research study as outlined above, please click 'Next' below. By selecting 'Next' you agree to the following statement:</strong> I understand my rights as a participant and agree to participate in this research Study<br /><br />"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "Overview, Eligibility, and Instructions",
+              "ask": "<strong>Thank you for agreeing to participate!</strong><br /><br />Maps are used on a daily basis at unprecedented levels. You may be familiar with mapping applications like Apple Maps, Google Maps, and MapQuest. You also may make use of web maps in social media like Facebook, Foursquare, Instagram, and Twitter. Further, you might have explored more complex interactive maps in popular news outlets like the New York Times and the Washington Post. The purpose of this study is to learn how we should create interactive maps that integrate people.<br /><br /><strong>Instructions</strong><br /><br />In Part 1, you will be presented with a case study. After you read the case study, you will be given an interactive map and a task. You will then use the interactive map to accomplish the task and answer a series of related questions. Questions will be multiple choice, ranking, and short answer. In Part 2, you will be presented with a series of maps and will asked about your preference. Part 3 will present a second case study. After you read the second case study, you will be given an interactive map and a task. You will use the interactive map to accomplish the task and answer a series of questions. Questions will be multiple choice, ranking, and short answer. Part 4 will present two maps and will ask for your preference.<br /><br />You will be <em>compensated</em> after completing these four sections and an exit survey!<br /><br /><strong>Eligibility</strong><br /><br />Before beginning, please once review your eligibility for participating in the study. These restrictions greatly impact your responses.<br /><ul><li>You must be 18 years of age or older.</li><li>You must be fluent in English.</li><li>You must currently be living in the United States.</li><li>You must complete the survey on a non-mobile device, such as a laptop or desktop computer. Completing the experiment on a smartphone or small screen tablet will greatly impact your performance and skew results.</li></ul><br /><br />If you have read the instructions and confirm that you are eligible, select 'Next' below to begin.<br /><br />"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "CHICAGO STORY",
+              "ask": "TEXT STORY PAGE 1"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "PART 1: Case Study One Introduction (Syria context example)",
+              "ask": "Since March of 2011, Syria has faced civil unrest leading to what the United Nations High Commissioner for Refugees (UNHCR) calls 'the biggest humanitarian emergency of our era.' Peaceful protests began in early 2011 after a group of teenagers were detained and tortured for painting revolutionary propaganda publically in the city of Dar’a. The situation quickly escalated with violent backlash from the Syrian government under President Bashar al-Assad. The backlash committed by the Assad government has preempted a Syrian civil war leading to over 400,000 lives lost, five million registered refugees, and six million internally displaced in Syria.<br /><br />Prior to the conflict, Aleppo was Syria’s largest city and the heart of Syrian finance and industry. Since 2012, Aleppo has become a focal point and key battleground site throughout the duration of the conflict. Strict divisions between Assad regime-controlled areas and opposition-controlled areas quickly emerged. Bombing between both sides has destroyed crucial infrastructure such as homes, schools, and hospitals killing thousands of people throughout the city. Over 100,000 civilians remained trapped in Aleppo as violence steadily increased in late 2016.<br /><br />"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "SURVEY",
+              "ask": "ENTRANCE SURVEY",
+              "description": "Q1",
+              "input": {
+                "required": false,
+                "type": "text",
+                "options": [],
+                "items": []
+              }
+            },
+            {
+              "description": "Q2",
+              "input": {
+                "required": false,
+                "type": "paragraph"
+              }
+            },
+            {
+              "description": "Q3",
+              "input": {
+                "required": false,
+                "type": "checkboxes",
+                "items": [
+                  {
+                    "text": "check1",
+                    "label": "p4s1b3i1"
+                  },
+                  {
+                    "text": "check2"
+                  },
+                  {
+                    "text": "check3"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Q4",
+              "input": {
+                "required": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "radio1"
+                  },
+                  {
+                    "text": "radio2"
+                  },
+                  {
+                    "text": "radio3"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Q5",
+              "input": {
+                "required": false,
+                "autoadvance": false,
+                "type": "dropdown",
+                "options": [
+                  {
+                    "text": "drop1"
+                  },
+                  {
+                    "text": "drop2"
+                  },
+                  {
+                    "text": "drop3"
+                  }
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "fullpage": true
+    },
+    {
+      "page": 7,
+      "fullpage": true
+    },
+    {
+      "page": 8,
+      "fullpage": true
+    },
+    {
+      "page": 9,
+      "fullpage": true
+    },
+    {
+      "page": 10,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IA1",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IA2",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "PART 1: Case Study One Task + Questions (Syria task example)",
+              "ask": "International organizations like the United Nations Refugee Agency (UNHCR) have actively worked to provide aid and emergency relief to Syrians in cities like Aleppo. UNHCR would like to place an emergency relief center within Aleppo and have proposed five potential locations for the center. <br /><br />Using the five potential sites and the information provided in the interactive map, determine which location would be best suited.<br /><br /> "
+            },
+            {
+              "ask": "Which potential site is best suited for an emergency relief center? ",
+              "input": {
+                "required": false,
+                "autoadvance": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "Site 1"
+                  },
+                  {
+                    "text": "Site 2"
+                  },
+                  {
+                    "text": "Site 3"
+                  },
+                  {
+                    "text": "Site 4"
+                  },
+                  {
+                    "text": "Site 5"
+                  }
+                ]
+              }
+            },
+            {
+              "ask": "Describe your decision making process. How did you select the potential site in Question 1?",
+              "input": {
+                "required": false,
+                "type": "text"
+              }
+            },
+            {
+              "title": "Rank each potential emergency relief center site from least suitable to most suitable ",
+              "ask": "Site 1",
+              "input": {
+                "required": false,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 2",
+              "input": {
+                "required": false,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 3",
+              "input": {
+                "required": false,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 4",
+              "input": {
+                "required": false,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 5",
+              "input": {
+                "required": false,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IB2",
+              "ask": "Syria"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "fullpage": true
+    },
+    {
+      "page": 15,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIA1",
+              "ask": "Syria"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIA2",
+              "ask": "Syria"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIB1",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIB2",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "fullpage": true
+    },
+    {
+      "page": 20,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIIA1",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIIA2",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 22,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIIB1",
+              "ask": "Syria"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IIIB2",
+              "ask": "Syria"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "fullpage": true
+    },
+    {
+      "page": 25,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IVA1",
+              "ask": "Syria"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 26,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IVA2",
+              "ask": "Syria"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IVB1",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 28,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "IVB2",
+              "ask": "Chicago"
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 29,
+      "fullpage": true
+    },
+    {
+      "page": 30,
+      "fullpage": false,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "PART 1: Case Study One Task + Questions (Syria task example)",
+              "ask": "International organizations like the United Nations Refugee Agency (UNHCR) have actively worked to provide aid and emergency relief to Syrians in cities like Aleppo. UNHCR would like to place an emergency relief center within Aleppo and have proposed five potential locations for the center. <br /><br />Using the five potential sites and the information provided in the interactive map, determine which location would be best suited.<br /><br /> "
+            },
+            {
+              "ask": "Which potential site is best suited for an emergency relief center? ",
+              "input": {
+                "required": true,
+                "autoadvance": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "Site 1"
+                  },
+                  {
+                    "text": "Site 2"
+                  },
+                  {
+                    "text": "Site 3"
+                  },
+                  {
+                    "text": "Site 4"
+                  },
+                  {
+                    "text": "Site 5"
+                  }
+                ]
+              }
+            },
+            {
+              "ask": "Describe your decision making process. How did you select the potential site in Question 1?",
+              "input": {
+                "required": true,
+                "type": "text"
+              }
+            },
+            {
+              "title": "Rank each potential emergency relief center site from least suitable to most suitable ",
+              "ask": "Site 1",
+              "input": {
+                "required": true,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 2",
+              "input": {
+                "required": true,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 3",
+              "input": {
+                "required": true,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 4",
+              "input": {
+                "required": true,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            },
+            {
+              "ask": "Site 5",
+              "input": {
+                "required": true,
+                "type": "matrix",
+                "options": [
+                  {
+                    "text": "1–Not at All Suitable"
+                  },
+                  {
+                    "text": "2"
+                  },
+                  {
+                    "text": "3"
+                  },
+                  {
+                    "text": "4"
+                  },
+                  {
+                    "text": "5-Very Suitable"
+                  }
+                ],
+                "items": [
+                  {}
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 31,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "SYRIA AFFECT"
+            },
+            {
+              "description": "Q2"
+            },
+            {
+              "description": "Q4",
+              "input": {
+                "required": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "radio1"
+                  },
+                  {
+                    "text": "radio2"
+                  },
+                  {
+                    "text": "radio3"
+                  }
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 32,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "SYRIA PEOPLE"
+            },
+            {
+              "description": "Q2"
+            },
+            {
+              "description": "Q4",
+              "input": {
+                "required": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "radio1"
+                  },
+                  {
+                    "text": "radio2"
+                  },
+                  {
+                    "text": "radio3"
+                  }
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 33,
+      "fullpage": true
+    },
+    {
+      "page": 34,
+      "fullpage": true
+    },
+    {
+      "page": 35,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "CHICAGO MAP TASK",
+              "ask": "DO THESE THINGS:",
+              "description": "Q1",
+              "input": {
+                "required": false,
+                "type": "text",
+                "options": [],
+                "items": []
+              }
+            },
+            {
+              "description": "Q2",
+              "input": {
+                "required": false,
+                "type": "paragraph"
+              }
+            },
+            {
+              "description": "Q3",
+              "input": {
+                "required": false,
+                "type": "checkboxes",
+                "items": [
+                  {
+                    "text": "check1",
+                    "label": "p4s1b3i1"
+                  },
+                  {
+                    "text": "check2"
+                  },
+                  {
+                    "text": "check3"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Q4",
+              "input": {
+                "required": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "radio1"
+                  },
+                  {
+                    "text": "radio2"
+                  },
+                  {
+                    "text": "radio3"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Q5",
+              "input": {
+                "required": false,
+                "autoadvance": false,
+                "type": "dropdown",
+                "options": [
+                  {
+                    "text": "drop1"
+                  },
+                  {
+                    "text": "drop2"
+                  },
+                  {
+                    "text": "drop3"
+                  }
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 36,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "CHICAGO AFFECT"
+            },
+            {
+              "description": "Q2"
+            },
+            {
+              "description": "Q4",
+              "input": {
+                "required": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "radio1"
+                  },
+                  {
+                    "text": "radio2"
+                  },
+                  {
+                    "text": "radio3"
+                  }
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 37,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "CHICAGO PEOPLE"
+            },
+            {
+              "description": "Q2"
+            },
+            {
+              "description": "Q4",
+              "input": {
+                "required": false,
+                "type": "radios",
+                "options": [
+                  {
+                    "text": "radio1"
+                  },
+                  {
+                    "text": "radio2"
+                  },
+                  {
+                    "text": "radio3"
+                  }
+                ]
+              }
+            }
+          ],
+          "buttons": [
+            "next",
+            "back",
+            "save"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 38,
+      "fullpage": true
+    },
+    {
+      "page": 39,
+      "fullpage": true
+    },
+    {
+      "page": 40,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 41,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 42,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 43,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 44,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 45,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 46,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 47,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 48,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 49,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "label": "MAP PREFERENCE",
+              "title": "CHOOSE A COMBO",
+              "ask": "Text",
+              "description": "DESCRIPTION TEXT"
+            }
+          ],
+          "buttons": [
+            "next"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 50,
+      "fullpage": true,
+      "sets": [
+        {
+          "blocks": [
+            {
+              "title": "Page 6",
+              "ask": "Thank you for taking this survey. You really rock.",
+              "description": "Because this set has no buttons, the participant will not be able to navigate to a different part of the survey."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

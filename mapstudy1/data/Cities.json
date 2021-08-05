@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"name": "Cities",
+"features": [
+{ "type": "Feature", "properties": { "city": "St. Francis", "lat": 39.7742, "long": -101.8009 }, "geometry": { "type": "Point", "coordinates": [ -101.781843853459975, 39.59997237449118 ] } },
+{ "type": "Feature", "properties": { "city": "Atwood", "lat": 39.8067, "long": -101.0421 }, "geometry": { "type": "Point", "coordinates": [ -101.150992265943017, 39.882924586160108 ] } },
+{ "type": "Feature", "properties": { "city": "Oberlin", "lat": 39.8183, "long": -100.5282 }, "geometry": { "type": "Point", "coordinates": [ -100.549210157435354, 39.70745207213961 ] } },
+{ "type": "Feature", "properties": { "city": "Smith", "lat": 39.8339, "long": -99.8915 }, "geometry": { "type": "Point", "coordinates": [ -100.231788331071911, 39.678728521031211 ] } },
+{ "type": "Feature", "properties": { "city": "Jackson", "lat": 39.7561, "long": -99.324 }, "geometry": { "type": "Point", "coordinates": [ -99.694233704206255, 39.878603799185882 ] } },
+{ "type": "Feature", "properties": { "city": "Stockton", "lat": 39.4381, "long": -99.2651 }, "geometry": { "type": "Point", "coordinates": [ -99.354936119402979, 39.451711533242872 ] } },
+{ "type": "Feature", "properties": { "city": "Hill", "lat": 39.3647, "long": -99.8421 }, "geometry": { "type": "Point", "coordinates": [ -99.9569, 39.3217 ] } },
+{ "type": "Feature", "properties": { "city": "Hoxie", "lat": 39.3575, "long": -100.4418 }, "geometry": { "type": "Point", "coordinates": [ -100.771199104477617, 39.24588542740841 ] } },
+{ "type": "Feature", "properties": { "city": "Colby", "lat": 39.3958, "long": -101.0524 }, "geometry": { "type": "Point", "coordinates": [ -101.08506767978291, 39.425745373134326 ] } },
+{ "type": "Feature", "properties": { "city": "Goodland", "lat": 39.3508, "long": -101.7102 }, "geometry": { "type": "Point", "coordinates": [ -101.647586947082758, 39.258241573948439 ] } },
+{ "type": "Feature", "properties": { "city": "Sharon", "lat": 38.8978, "long": -101.7521 }, "geometry": { "type": "Point", "coordinates": [ -101.885493025780193, 39.009414572591588 ] } },
+{ "type": "Feature", "properties": { "city": "Winona", "lat": 39.0, "long": -101.2443 }, "geometry": { "type": "Point", "coordinates": [ -101.198020786974212, 39.0 ] } },
+{ "type": "Feature", "properties": { "city": "Rock", "lat": 38.959, "long": -100.4878 }, "geometry": { "type": "Point", "coordinates": [ -100.536801519674341, 38.820162360922659 ] } },
+{ "type": "Feature", "properties": { "city": "WaKeeney", "lat": 39.025, "long": -99.8796 }, "geometry": { "type": "Point", "coordinates": [ -99.983047652645851, 39.000499240162817 ] } },
+{ "type": "Feature", "properties": { "city": "Hays", "lat": 38.8792, "long": -99.3268 }, "geometry": { "type": "Point", "coordinates": [ -99.3268, 38.8792 ] } },
+{ "type": "Feature", "properties": { "city": "La Crosse", "lat": 38.5314, "long": -99.3087 }, "geometry": { "type": "Point", "coordinates": [ -99.542818371777486, 38.572234599728624 ] } },
+{ "type": "Feature", "properties": { "city": "River", "lat": 38.4528, "long": -99.9065 }, "geometry": { "type": "Point", "coordinates": [ -100.086172238805958, 38.294906214382635 ] } },
+{ "type": "Feature", "properties": { "city": "Dighton", "lat": 38.52, "long": -100.475 }, "geometry": { "type": "Point", "coordinates": [ -100.485, 38.5 ] } },
+{ "type": "Feature", "properties": { "city": "Leoti", "lat": 38.4797, "long": -101.3588 }, "geometry": { "type": "Point", "coordinates": [ -101.394189986431485, 38.4797 ] } },
+{ "type": "Feature", "properties": { "city": "Tribune", "lat": 38.4697, "long": -101.7527 }, "geometry": { "type": "Point", "coordinates": [ -101.766311533242884, 38.586759185888738 ] } },
+{ "type": "Feature", "properties": { "city": "Syracuse", "lat": 37.9806, "long": -101.7527 }, "geometry": { "type": "Point", "coordinates": [ -101.845258426051558, 38.141216092265942 ] } },
+{ "type": "Feature", "properties": { "city": "Lakin", "lat": 37.9406, "long": -101.2549 }, "geometry": { "type": "Point", "coordinates": [ -101.2549, 37.9406 ] } },
+{ "type": "Feature", "properties": { "city": "Garden", "lat": 37.9717, "long": -100.8727 }, "geometry": { "type": "Point", "coordinates": [ -100.733862360922657, 38.148649932157397 ] } },
+{ "type": "Feature", "properties": { "city": "Jetmore", "lat": 38.0845, "long": -99.8935 }, "geometry": { "type": "Point", "coordinates": [ -99.958835359565796, 38.130779213025782 ] } },
+{ "type": "Feature", "properties": { "city": "Kinsley", "lat": 37.9231, "long": -99.4098 }, "geometry": { "type": "Point", "coordinates": [ -99.4098, 37.9231 ] } }
+]
+}

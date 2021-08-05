@@ -1,0 +1,23 @@
+[
+	{
+		"sectionId": "header",
+		"cssAttributes": {
+			"background-color": "#f13e29"
+		},
+		"logo-url": "img/uw.png",
+		"content": "Elements of Interactive Cartography "
+	},
+	{
+		"sectionId": "m",
+		"cssAttributes": {
+			"text-shadow": "1px 1px 1px #fff"
+		}
+	},
+	{
+		"sectionId": "footer",
+		"cssAttributes": {
+			"background-color": "#f03d28"
+		},
+		"content": "This Project is Sponsored by the University of Wisconsin-Madison Cartography Lab and the National Science Foundataion."
+	}
+]

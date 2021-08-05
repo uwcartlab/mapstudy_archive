@@ -1,0 +1,85 @@
+/*
+--PAGE ORGANIZATION--
+There are a number of blank pages that can be used to insert additional content
+
+I = Points
+II = Icons
+III = Choropleth
+IV = Proportional symbols
+
+A = Quant Pop-ups
+B = Qual Pop-ups
+
+1 = Satellite Basemap
+2 = Simple Basemap
+
++ = Oakland (otherwise, Syria)
+
+PAGES
+INTRO
+1 IRB
+2 OVERVIEW/ELIGIBILITY (see customized pages below)
+
+55 OVERVIEW for Group 1
+56 OVERVIEW for Group 2
+57 OVERVIEW for Group 3
+58 OVERVIEW for Group 4
+59 OVERVIEW for Group 5
+60 OVERVIEW for Group 6
+61 OVERVIEW for Group 7
+62 OVERVIEW for Group 8
+
+
+3 OAKLAND STORY
+4 SYRIA STORY
+5 Part 1
+6 Part 2
+7 Part 3
+8 Exit Survey
+9
+
+POINTS		ICONS			CHOROPLETH	PROP
+10 IA1+		15 IIA1		20 IIIA1+		25 IVA1
+11 IA2+		16 IIA2		21 IIIA2+		26 IVA2
+12 IB1		17 IIB1+	22 IIIB1		27 IVB1+
+13 IB2		18 IIB2+	23 IIIB2		28 IVB2+
+14				19				24					29
+
+SURVEYS
+30 Syria PANAS		  			35 OAK PANAS
+31 Syria Survey 				36 OAK Survey
+32 Syria Interaction Survey     37 OAK Interaction Survey
+33								38
+34								39
+
+MAP COMBO PREFERENCES
+40 Point preference (4 maps)
+41 Point relatability (4 maps)
+42 Aggregated preference (4 maps)
+43 Aggregated relatability (4 maps)
+44 Representation and Satellite preference (4 maps)
+45 Representation and Satellite relatability (4 maps)
+46 Representation and Gray preference (4 maps)
+47 Representation and Gray preference (4 maps)
+48 Base map preference (2 maps)
+49 Pop up preference (2 maps)
+
+EXIT SURVEY
+50 Background
+51 Familiarity
+52 Interest
+53 Political beliefs
+54 Thank you
+
+*/
+
+Group1: I A1+(10) B2(13)
+Group2: I B1(12) A2+(11)
+Group3: II B2+(18) A1(15)
+Group4: II A2(16) B1+(17)
+Group5: III A1+(20) B2(23)
+Group6: III B1(22) A2+(21)
+Group7: IV B2+(28) A1(25)
+Group8: IV A2(26) B1+(27)
+
+//all pages with content in order

@@ -1,0 +1,91 @@
+Key:
+
+Map 1: chor-_C1_1, HIKING					
+Map 2: chor-_L2_2, GLOVES
+Map 3: chor-_T3_3, COFFEE
+Map 4: chor-_U4_4, BASKETBALL
+Map 5: dotd-_C2_2, MOVIES
+Map 6: dotd-_L3_4, HATS
+Map 7: dotd-_T4_1, HAMBURGERS
+Map 8: dotd-_U1_3, BASEBALL
+Map 9: heat-_C3_4, MUSIC
+Map 10: heat-_L4_3, JACKETS
+Map 11: heat-_T1_2, PIZZA
+Map 12: heat-_U2_1, SOCCER
+Map 13: prop-_C4_3, NIGHTLIFE
+Map 14: prop-_L1_1, SHOES
+Map 15: prop-_T2_4, SALAD
+Map 16: prop-_U3_2, TENNIS
+
+
+Page 17: Submit page
+Page 18: Thank you page
+
+Page 19: Training map (Interaction)
+Page 20: Training map (Map Legend)
+Page 21: Training map (Questions)
+
+
+Page 22: IRB
+Page 23: Instructions and Eligibility
+
+Page 24: Usefulness and Preference Survey (map type)
+Page 25: Usefulness and Preference Survey (interactivity)
+
+Page 26: Background
+Page 27: Familiarity and Interest
+Page 28: Technology Survey
+
+Page 29: Part 1: Practice Map
+Page 30: Part 2: Map
+Page 31: Part 3: Exit Survey
+
+
+1,32   Page 32: Confidence and Difficulty, Map 1
+2,33   Page 33: Confidence and Difficulty, Map 2
+3,34   Page 34: Confidence and Difficulty, Map 3
+4,35   Page 35: Confidence and Difficulty, Map 4
+5,36   Page 36: Confidence and Difficulty, Map 5
+6,37   Page 37: Confidence and Difficulty, Map 6
+7,38   Page 38: Confidence and Difficulty, Map 7
+8,39   Page 39: Confidence and Difficulty, Map 8
+9,40   Page 40: Confidence and Difficulty, Map 9
+10,41  Page 41: Confidence and Difficulty, Map 10
+11,42  Page 42: Confidence and Difficulty, Map 11
+12,43  Page 43: Confidence and Difficulty, Map 12
+13,44  Page 44: Confidence and Difficulty, Map 13
+14,45  Page 45: Confidence and Difficulty, Map 14
+15,46  Page 46: Confidence and Difficulty, Map 15
+16,47  Page 47: Confidence and Difficulty, Map 16
+
+All Maps + Confidience and Diffculty
+1,32,2,33,3,34,4,35,5,36,6,37,7,38,8,39,9,40,10,41,11,42,12,43,13,44,14,45,15,46,16,47
+
+48: MapStudy 1 ID Submit, Have you taken this survey
+49: MapStudy 2 ID, Have you taken this survey
+50: MapStudy 3 ID, Have you taken this survey
+51: MapStudy 4 ID, Have you taken this survey
+52: MapStudy 5 ID, Have you taken this survey
+53: MapStudy 6 ID, Have you taken this survey
+54: MapStudy 7 ID, Have you taken this survey
+55: MapStudy 8 ID, Have you taken this survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

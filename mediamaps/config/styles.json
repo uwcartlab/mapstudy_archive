@@ -1,0 +1,16 @@
+[
+	{
+		"sectionId": "header",
+		"cssAttributes": {
+			"background-color": "#e0d7de"
+		},
+		"content": "The Role of Interactive Maps in Popular Media"
+	},
+	{
+		"sectionId": "footer",
+		"cssAttributes": {
+			"background-color": "#d6ced6"
+		},
+		"content": ""
+	}
+]

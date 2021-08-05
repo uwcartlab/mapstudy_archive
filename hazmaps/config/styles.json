@@ -1,0 +1,17 @@
+[
+	{
+		"sectionId": "header",
+		"cssAttributes": {
+			"background-color": "#C62C38"
+		},
+
+		"content": "Interactive Maps and Decision Making: A Case Study in the North American Hazardous Waste Trade"
+	},
+	{
+		"sectionId": "footer",
+		"cssAttributes": {
+			"background-color": "#C62C38"
+		},
+		"content": "This Project is Sponsored by the University of Wisconsin-Madison and the National Science Foundataion."
+	}
+]

@@ -1,0 +1,3541 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Mack \"Jody\" Woodfox",
+        "date": "25-Jul-08",
+        "desc": "Mack \"Jody\" Woodfox, 27, was shot and killed after an attempted traffic stop",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "407200",
+        "address": "East 17th Street and Fruitvale Avenue",
+        "link": "http://colorlines.com/archives/2012/06/the_oakland_police_departments_nine-year-long.html",
+        "ID": "7354",
+        "Census Block Code": "4003",
+        "Description": "Mack \"Jody\" Woodfox, a 27 year old African-American/Black Male was killed by police on 07/25/2008. Mack \"Jody\" Woodfox, 27, was shot and killed after an attempted traffic stop",
+        "year": "2008",
+        "age": 27,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.2239,
+          37.781408
+        ],
+        "type": "Point"
+      },
+      "id": "00702fa93865a900239f82ee8c6de7aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Arthur Raleigh",
+        "date": "26-Sep-11",
+        "desc": "Arthur Raleigh, 34, was shot after he fled from a car and threatened the officer with a gun.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "410300",
+        "address": "9900 Cherry Street",
+        "link": "http://www.sfgate.com/crime/article/Family-of-man-killed-by-police-sues-Oakland-3473219.php",
+        "ID": "10618",
+        "Census Block Code": "2007",
+        "Description": "Arthur Raleigh, a 34 year old African-American/Black Male was killed by police on 09/26/2011. Arthur Raleigh, 34, was shot after he fled from a car and threatened the officer with a gun.",
+        "year": "2011",
+        "age": 34,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.164985,
+          37.744974
+        ],
+        "type": "Point"
+      },
+      "id": "00b81db5d8b0468ca7068de8a4279851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Yonas Alehegne",
+        "date": "27-Aug-15",
+        "desc": "Alehegne allegedly attacked an officer with a metal bicycle chain before she returned fire, according to authorities. Police said the officer was treated for injuries to her face and head and released from the hospital.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "403702",
+        "address": "200 MacArthur Blvd and Van Buren Ave",
+        "link": "http://www.mercurynews.com/crime-courts/ci_28734820/oakland-police-release-name-suspect-officer-fatal-shooting",
+        "ID": "16569",
+        "Census Block Code": "1007",
+        "Description": "Yonas Alehegne, a 30 year old African-American/Black Male was killed by police on 08/27/2015. Alehegne allegedly attacked an officer with a metal bicycle chain before she returned fire, according to authorities. Police said the officer was treated for injuries to her face and head and released from the hospital.",
+        "year": "2015",
+        "age": 30,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.250413,
+          37.811222
+        ],
+        "type": "Point"
+      },
+      "id": "01451b77440f81f29f50cd35f5748d9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Davon Jackson",
+        "date": "18-May-11",
+        "desc": "Davon Jackson was shot and killed after he, John Sloan and a third man were stopped by Oakland police. Police said the men were armed and confrontational. Moments later, police shot Davon Jackson in the side while he sat in the driver's seat and John Sloan in the back of the head while he ran away.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "406601",
+        "address": "3000 Curran Avenue",
+        "link": "http://www.mercurynews.com/cupertino/ci_20976064/four-men-charged-conspiracy-attempted-murder-oakland",
+        "ID": "10194",
+        "Census Block Code": "2002",
+        "Description": "Davon Jackson, a 30 year old African-American/Black Male was killed by police on 05/18/2011. Davon Jackson was shot and killed after he, John Sloan and a third man were stopped by Oakland police. Police said the men were armed and confrontational. Moments later, police shot Davon Jackson in the side while he sat in the driver's seat and John Sloan in the back of the head while he ran away.",
+        "year": "2011",
+        "age": 30,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.211391,
+          37.791883
+        ],
+        "type": "Point"
+      },
+      "id": "02e592f908a59f1c9eea2c7bf26ad3a3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://sfbayview.com/wp-content/uploads/2011/03/Raheim-Brown.jpg",
+        "agency": "Oakland Unified School District police officers",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Raheim Brown",
+        "date": "22-Jan-11",
+        "desc": "Raheim Brown was sitting in an allegedly stolen car with its hazard lights flashing near the grounds of Skyline High School. When officers approached the car, Brown stabbed one of the officers with a screwdriver. The other officer shot and killed Brown.",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "404600",
+        "address": "3300 Joaquin Miller Road",
+        "link": "http://oaklandnorth.net/2011/01/27/school-board-hears-grief-over-shooting-examines-budget/",
+        "ID": "9809",
+        "Census Block Code": "4012",
+        "Description": "Raheim Brown, a 20 year old African-American/Black Male was killed by police on 01/22/2011. Raheim Brown was sitting in an allegedly stolen car with its hazard lights flashing near the grounds of Skyline High School. When officers approached the car, Brown stabbed one of the officers with a screwdriver. The other officer shot and killed Brown.",
+        "year": "2011",
+        "age": 20,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.189378,
+          37.80994
+        ],
+        "type": "Point"
+      },
+      "id": "04aae3fef339dd721d18b3f303bdce67"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://ww2.hdnux.com/photos/10/34/27/2213345/5/920x920.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Roshawn Hill",
+        "date": "5-Jun-02",
+        "desc": "Hill, a murder suspect who had been convicted of robbery, fired his gun into a police car after a robbery. An officer fired back, killing Hill",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "407600",
+        "address": "4800 Melrose Avenue",
+        "link": "http://www.sfgate.com/bayarea/article/The-Faces-behind-the-numbers-2708661.php#page-3",
+        "ID": "1740",
+        "Census Block Code": "4000",
+        "Description": "Roshawn Hill, a 18 year old African-American/Black Male was killed by police on 06/05/2002. Hill, a murder suspect who had been convicted of robbery, fired his gun into a police car after a robbery. An officer fired back, killing Hill",
+        "year": "2002",
+        "age": 18,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.206295,
+          37.774727
+        ],
+        "type": "Point"
+      },
+      "id": "11fcd9570130f82e5622f837484faf7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://ww2.hdnux.com/photos/10/50/54/2263845/5/920x920.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.92",
+        "city": "Oakland",
+        "name": "Willie Wilkens",
+        "date": "11-Jan-01",
+        "desc": "Two rookie Oakland patrolmen shot and killed an undercover narcotics officer  who they didn't realize was one of their own - as he arrested a suspected car thief,",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "409400",
+        "address": "90th Avenue and B Street",
+        "link": "http://www.sfgate.com/bayarea/article/Friendly-Fire-Fells-Oakland-Officer-Two-rookies-2965432.php",
+        "ID": "674",
+        "Census Block Code": "3011",
+        "Description": "Willie Wilkens, a 29 year old African-American/Black Male was killed by police on 01/11/2001. Two rookie Oakland patrolmen shot and killed an undercover narcotics officer  who they didn't realize was one of their own - as he arrested a suspected car thief,",
+        "year": "2001",
+        "age": 29,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.177969,
+          37.748255
+        ],
+        "type": "Point"
+      },
+      "id": "14d8f6e4292c89f3d7e9de7681822841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.99",
+        "city": "Oakland",
+        "name": "Richard Perkins",
+        "date": "15-Nov-15",
+        "desc": "Officers were responding to a sideshow were standing around doing paperwork and waiting for tow trucks before the incident occurred. The officers scattered when Perkins pulled what appeared to be a black pistol from his waistband. No communication was made with Perkins before the officers fatally shot him.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "409700",
+        "address": "90th Ave and Bancroft Ave",
+        "link": "http://sanfrancisco.cbslocal.com/2015/11/20/richard-perkins-shot-by-oakland-officers-allegedly-brandishing-pellet-gun/",
+        "ID": "16901",
+        "Census Block Code": "2006",
+        "Description": "Richard Perkins, a 39 year old African-American/Black Male was killed by police on 11/15/2015. Officers were responding to a sideshow were standing around doing paperwork and waiting for tow trucks before the incident occurred. The officers scattered when Perkins pulled what appeared to be a black pistol from his waistband. No communication was made with Perkins before the officers fatally shot him.",
+        "year": "2015",
+        "age": 39,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.165823,
+          37.753588
+        ],
+        "type": "Point"
+      },
+      "id": "18f97dc8ec55899c949c626ebbdafd6c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Male",
+        "img": "",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Pedro Ariel Hernandez",
+        "date": "27-Jul-11",
+        "desc": "Pedro Ariel Hernandez was killed after he fled from the CHP and crashed near an Oakland freeway off-ramp.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "1",
+        "Census Tract Code": "406300",
+        "address": "I-880 and 29th Avenue",
+        "link": "http://www.sfgate.com/crime/article/Oakland-teen-IDd-as-driver-killed-in-CHP-chase-2352972.php",
+        "ID": "10410",
+        "Census Block Code": "1010",
+        "Description": "Pedro Ariel Hernandez, a 19 year old Hispanic/Latino Male was killed by police on 07/27/2011. Pedro Ariel Hernandez was killed after he fled from the CHP and crashed near an Oakland freeway off-ramp.",
+        "year": "2011",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.223779,
+          37.786027
+        ],
+        "type": "Point"
+      },
+      "id": "1a2056955690c9eb787fe75a0cb88a2d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jason Alexander Brown",
+        "date": "19-Nov-15",
+        "desc": "Jason Brown reportedly killed himself during a standoff at an Oakland motel.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "409000",
+        "address": "8480 Edes Avenue",
+        "link": "http://www.kcra.com/news/police-possible-natomas-homicide-suspect-kills-self-during-standoff/36569828",
+        "ID": "16922",
+        "Census Block Code": "1016",
+        "Description": "Jason Alexander Brown, a 18 year old African-American/Black Male was killed by police on 11/19/2015. Jason Brown reportedly killed himself during a standoff at an Oakland motel.",
+        "year": "2015",
+        "age": 18,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.195076,
+          37.741164
+        ],
+        "type": "Point"
+      },
+      "id": "1ae7efa10db83134efa2faff26047806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://www.mentalhealthportland.org/wp-content/uploads/2014/09/Jacorey-Calhoun.jpg",
+        "agency": "Alameda County Sheriff's Office",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jacorey Calhoun",
+        "date": "3-Aug-14",
+        "desc": "Alameda County Deputy Thoms fatally shot Jacorey Calhoun, 23, on Aug. 3 near 105th and Edes avenues after Calhoun allegedly fled from an Oakland police car stop. Officers had tried to stop Calhoun as he drove a 2001 Volvo near 55th and Fairfax avenues in East Oakland. The Volvo was connected to a home-invasion robbery July 12.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "409200",
+        "address": "105th Avenue and Edes Avenue",
+        "link": "http://www.sfgate.com/crime/article/Alameda-County-sheriff-s-deputy-who-shot-suspect-5698358.php",
+        "ID": "14890",
+        "Census Block Code": "1006",
+        "Description": "Jacorey Calhoun, a 23 year old African-American/Black Male was killed by police on 08/03/2014. Alameda County Deputy Thoms fatally shot Jacorey Calhoun, 23, on Aug. 3 near 105th and Edes avenues after Calhoun allegedly fled from an Oakland police car stop. Officers had tried to stop Calhoun as he drove a 2001 Volvo near 55th and Fairfax avenues in East Oakland. The Volvo was connected to a home-invasion robbery July 12.",
+        "year": "2014",
+        "age": 23,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.178319,
+          37.733301
+        ],
+        "type": "Point"
+      },
+      "id": "1d48563e43e03326c90b1f63b350b55c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Maurice Esters",
+        "date": "4-Jul-00",
+        "desc": "Officers Mike Yoell and Anthony Centeno shot Maurice Esters when he allegedly raised a gun in what police considered a threatening manner.",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "406800",
+        "address": "3500 MacArthur Boulevard",
+        "link": "http://www.sfgate.com/bayarea/article/OAKLAND-Rights-suit-against-city-2-police-2901107.php",
+        "ID": "312",
+        "Census Block Code": "4015",
+        "Description": "Maurice Esters, a 28 year old African-American/Black Male was killed by police on 07/04/2000. Officers Mike Yoell and Anthony Centeno shot Maurice Esters when he allegedly raised a gun in what police considered a threatening manner.",
+        "year": "2000",
+        "age": 28,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.200653,
+          37.793862
+        ],
+        "type": "Point"
+      },
+      "id": "214881e3f38d9983dae1902492625447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://sfbayview.com/wp-content/uploads/2010/12/Aba-aka-Obataiye-Edwards-19-Wanda%E2%80%99s-nephew-murdered-by-OPD-122010-by-Wanda.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Obataiye Edwards",
+        "date": "20-Dec-10",
+        "desc": "Edwards was shot after a in-vehicle pursuit ended with Edwards crashing into a home, and then running away on foot. His .380 semi-automatic pistol, was recovered at the scene.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "405700",
+        "address": "13th Avenue and East 33rd Street",
+        "link": "http://oaklandnorth.net/2010/12/21/police-identify-man-shot-after-car-chase-link-him-to-gang-activity/",
+        "ID": "9721",
+        "Census Block Code": "1009",
+        "Description": "Obataiye Edwards, a 19 year old African-American/Black Male was killed by police on 12/20/2010. Edwards was shot after a in-vehicle pursuit ended with Edwards crashing into a home, and then running away on foot. His .380 semi-automatic pistol, was recovered at the scene.",
+        "year": "2010",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.233082,
+          37.801108
+        ],
+        "type": "Point"
+      },
+      "id": "21db8f260f3c8200d32f85dd418343d1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://extras.mnginteractive.com/live/media/site568/2015/0807/20150807__ois~1.JPG",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.9",
+        "city": "Oakland",
+        "name": "Antonio Clements",
+        "date": "3-Aug-15",
+        "desc": "Clements was suspected of sexual assault, and when officers arrived at his residence, he came out and shot an officer in the chest. Then, officers shot him to death.",
+        "race": "African-American/Black",
+        "Census Block Group": "5",
+        "Census Tract Code": "401000",
+        "address": "3800 Martin Luther King Jr. Way",
+        "link": "http://www.contracostatimes.com/breaking-news/ci_28602957/sexual-assault-suspect-slain-gunbattle-police-identified",
+        "ID": "16463",
+        "Census Block Code": "5000",
+        "Description": "Antonio Clements, a 49 year old African-American/Black Male was killed by police on 08/03/2015. Clements was suspected of sexual assault, and when officers arrived at his residence, he came out and shot an officer in the chest. Then, officers shot him to death.",
+        "year": "2015",
+        "age": 49,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.269047,
+          37.827081
+        ],
+        "type": "Point"
+      },
+      "id": "24dc52b6179d6492b6216583674001d1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "David Taiwai Chang",
+        "date": "6-May-02",
+        "desc": "David Taiwai Chang reportedly shot himself during a six-hour standoff with SWAT.",
+        "race": "Asian/Pacific Islander",
+        "Census Block Group": "1",
+        "Census Tract Code": "405200",
+        "address": "900 MacArthur Boulevard",
+        "link": "http://www.sfgate.com/news/article/6-hour-standoff-in-Oakland-ends-in-man-s-apparent-2839622.php",
+        "ID": "1673",
+        "Census Block Code": "1002",
+        "Description": "David Taiwai Chang, a 52 year old Asian/Pacific Islander Male was killed by police on 05/06/2002. David Taiwai Chang reportedly shot himself during a six-hour standoff with SWAT.",
+        "year": "2002",
+        "age": 52,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.238854,
+          37.806376
+        ],
+        "type": "Point"
+      },
+      "id": "26ba1ea72488358d3573b83e8a8eebb3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Female",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.33",
+        "city": "Oakland",
+        "name": "Jody Perry",
+        "date": "9-Nov-03",
+        "desc": "Gregory Charles and Jody Perry were killed, and Charles' 7-year-old son was seriously injured, when a suspected drunken driver who was fleeing from police ran a red light and crashed into their car.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "406300",
+        "address": "42nd Avenue and International Boulevard",
+        "link": "http://www.sfgate.com/bayarea/article/Red-light-runner-smashes-into-car-kills-couple-2512467.php",
+        "ID": "2921",
+        "Census Block Code": "1010",
+        "Description": "Jody Perry, a 37 year old African-American/Black Female was killed by police on 11/09/2003. Gregory Charles and Jody Perry were killed, and Charles' 7-year-old son was seriously injured, when a suspected drunken driver who was fleeing from police ran a red light and crashed into their car.",
+        "year": "2003",
+        "age": 37,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.223779,
+          37.786027
+        ],
+        "type": "Point"
+      },
+      "id": "28f83b1c9f705f88a3fe944ca2764fc3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Ronald Brazier",
+        "date": "2-Aug-06",
+        "desc": "Brazier was about to be questioned about some slayings this summer was killed by police after he fired a handgun at them",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "408800",
+        "address": "65th Avenue and International Boulevard",
+        "link": "http://www.insidebayarea.com/search/ci_4129897",
+        "ID": "5352",
+        "Census Block Code": "4023",
+        "Description": "Ronald Brazier, a 17 year old African-American/Black Male was killed by police on 08/02/2006. Brazier was about to be questioned about some slayings this summer was killed by police after he fired a handgun at them",
+        "year": "2006",
+        "age": 17,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.194531,
+          37.76281
+        ],
+        "type": "Point"
+      },
+      "id": "2c9a00238937ed2c3412e165aeac3322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jeremiah Dye",
+        "date": "19-May-07",
+        "desc": "Jeremiah Dye was killed in a crawlspace under an East Oakland house. Dye had run from police after his cousin shot and wounded an OPD officer during a traffic stop.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "2",
+        "Census Tract Code": "408400",
+        "address": "2635 Parker Ave.",
+        "link": "http://www.orovillemr.com/news/bayarea/ci_6016925",
+        "ID": "6155",
+        "Census Block Code": "2002",
+        "Description": "Jeremiah Dye, a 22 year old Hispanic/Latino Male was killed by police on 05/19/2007. Jeremiah Dye was killed in a crawlspace under an East Oakland house. Dye had run from police after his cousin shot and wounded an OPD officer during a traffic stop.",
+        "year": "2007",
+        "age": 22,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.171725,
+          37.764156
+        ],
+        "type": "Point"
+      },
+      "id": "2d41405693261248317c3439722842d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://sfbayview.com/wp-content/uploads/2010/07/Fred-Collins-from-fugitive.com_.jpg",
+        "agency": "Oakland Police Department, BART",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Fred Collins",
+        "date": "17-Jul-10",
+        "desc": "Fred Collins, 48, who threatened officers with a knife and shouted “shoot me,” was shot and killed by five police officers — three from Oakland Police and two from BART Police",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "407200",
+        "address": "1500 33rd Avenue",
+        "link": "http://www.californiabeat.org/2010/07/17/bart-oakland-police-shoot-man-in-fruitvale-district",
+        "ID": "9307",
+        "Census Block Code": "4005",
+        "Description": "Fred Collins, a 49 year old African-American/Black Male was killed by police on 07/17/2010. Fred Collins, 48, who threatened officers with a knife and shouted “shoot me,” was shot and killed by five police officers — three from Oakland Police and two from BART Police",
+        "year": "2010",
+        "age": 49,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.223891,
+          37.778854
+        ],
+        "type": "Point"
+      },
+      "id": "2e1e0dd1a958434399c58a1c15557467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "https://mgtvkron.files.wordpress.com/2015/06/060815-demouria-hogg-e1433804108705.jpg?w=473",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.97",
+        "city": "Oakland",
+        "name": "Demouria Hogg",
+        "date": "6-Jun-15",
+        "desc": "Hogg was unconscious in his car, investigations are open to determine why the police officers opened fire.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "405000",
+        "address": "Lakeshore Ave and Lake Park Ave",
+        "link": "http://www.mercurynews.com/crime-courts/ci_28276829/family-grieves-man-shot-and-killed-by-oakland",
+        "ID": "16207",
+        "Census Block Code": "3013",
+        "Description": "Demouria Hogg, a 30 year old African-American/Black Male was killed by police on 06/06/2015. Hogg was unconscious in his car, investigations are open to determine why the police officers opened fire.",
+        "year": "2015",
+        "age": 30,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.246236,
+          37.810027
+        ],
+        "type": "Point"
+      },
+      "id": "2e57664e567dda04e06d84d8a6225056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jose Luis Buenrostro",
+        "date": "19-Mar-08",
+        "desc": "Three officers from the police gang unit shot and killed 15-year-old Jose Luis Buenrostro, who allegedly had ties to a gang, after he pointed a sawed-off rifle at them.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "1",
+        "Census Tract Code": "408900",
+        "address": "7900 Rudsdale Street",
+        "link": "http://www.sfgate.com/bayarea/article/Oakland-cops-shoot-kill-boy-say-he-was-armed-3221519.php",
+        "ID": "7000",
+        "Census Block Code": "1008",
+        "Description": "Jose Luis Buenrostro, a 15 year old Hispanic/Latino Male was killed by police on 03/19/2008. Three officers from the police gang unit shot and killed 15-year-old Jose Luis Buenrostro, who allegedly had ties to a gang, after he pointed a sawed-off rifle at them.",
+        "year": "2008",
+        "age": 15,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.186454,
+          37.75488
+        ],
+        "type": "Point"
+      },
+      "id": "2ffc4239996ec6284388b9188e552ee5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://ww4.hdnux.com/photos/10/05/25/2118999/5/628x471.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Booker Carloss II",
+        "date": "4-Nov-04",
+        "desc": "Carloss was shot and killed when he charged at police with an ax after they shot him with stun guns and a bean-bag.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "401500",
+        "address": "2830 Magnolia St.",
+        "link": "http://www.sfgate.com/bayarea/article/OAKLAND-Police-shoot-kill-mentally-ill-man-2637977.php",
+        "ID": "3752",
+        "Census Block Code": "3006",
+        "Description": "Booker Carloss II, a 50 year old African-American/Black Male was killed by police on 11/04/2004. Carloss was shot and killed when he charged at police with an ax after they shot him with stun guns and a bean-bag.",
+        "year": "2004",
+        "age": 50,
+        "Place FIPS": "622594"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.283163,
+          37.820742
+        ],
+        "type": "Point"
+      },
+      "id": "31dad4b63b6e9139e14ece866f127ffb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Brownie Polk",
+        "date": "1-Aug-09",
+        "desc": "Polk was holding a hatchet over his head in a threatening manner when he was shot. The owner of Tolin Liquor Store had called police to report that Polk, 46, was causing problems inside the store by harassing the owner and store customers.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "408800",
+        "address": "7101 International Blvd.",
+        "link": "http://www.nbcbayarea.com/news/local/Hatchet-Holding-Man-Shot-by-OPD-52435412.html",
+        "ID": "8319",
+        "Census Block Code": "1006",
+        "Description": "Brownie Polk, a 46 year old African-American/Black Male was killed by police on 08/01/2009. Polk was holding a hatchet over his head in a threatening manner when he was shot. The owner of Tolin Liquor Store had called police to report that Polk, 46, was causing problems inside the store by harassing the owner and store customers.",
+        "year": "2009",
+        "age": 46,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.1887,
+          37.759894
+        ],
+        "type": "Point"
+      },
+      "id": "31fefdf981a08c4276060d8b740d9f28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Female",
+        "img": "http://ak-cache.legacy.net/usercontent/guestbook/photos/2009-09/2009-09-02/34274041.jpgx?w=530&h=390&option=1&fc=000",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Marquita Bosley",
+        "date": "26-Aug-09",
+        "desc": "Marquita Bosley was killed and her 19-month-old son Nai'ere was critically injured when a driver fleeing police crashed into Bosley's car in West Oakland.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "402700",
+        "address": "West Street and 18th Street",
+        "link": "http://abc7news.com/archive/6986899/",
+        "ID": "8390",
+        "Census Block Code": "1012",
+        "Description": "Marquita Bosley, a 25 year old African-American/Black Female was killed by police on 08/26/2009. Marquita Bosley was killed and her 19-month-old son Nai'ere was critically injured when a driver fleeing police crashed into Bosley's car in West Oakland.",
+        "year": "2009",
+        "age": 25,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.27668,
+          37.812015
+        ],
+        "type": "Point"
+      },
+      "id": "32962241c79aff356a86679693afa5f7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Male",
+        "img": "http://s3.amazonaws.com/dk-production/images/39145/large/Oscar_Grant.jpg?1372975240",
+        "agency": "Bay Area Rapid Transit Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.33",
+        "city": "Oakland",
+        "name": "Oscar Grant III",
+        "date": "1-Jan-09",
+        "desc": "A restrained and unarmed Oscar Grant was shot in the back by by Bay Area Rapid Transit police officer Johannes Mehserle. Mehserle was found guilty of involuntary manslaughter, and sentenced to two years in state prison with 292 days of credit for time already served.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "406300",
+        "address": "3401 East Twelfth Street",
+        "link": "http://sfbayview.com/2009/oscar-grant-young-father-and-peacemaker-executed-by-bart-police/",
+        "ID": "7758",
+        "Census Block Code": "1010",
+        "Description": "Oscar Grant III, a 22 year old African-American/Black Male was killed by police on 01/01/2009. A restrained and unarmed Oscar Grant was shot in the back by by Bay Area Rapid Transit police officer Johannes Mehserle. Mehserle was found guilty of involuntary manslaughter, and sentenced to two years in state prison with 292 days of credit for time already served.",
+        "year": "2009",
+        "age": 22,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.223779,
+          37.786027
+        ],
+        "type": "Point"
+      },
+      "id": "3c720114705666d9dc5f2ed1d01849d4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Charles Griffin",
+        "date": "22-Aug-08",
+        "desc": "Police shot and killed Charles Griffin after he tried to flee an arrest with an officer in his car.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "403000",
+        "address": "14th Street and Jefferson Street",
+        "link": "http://www.sfgate.com/bayarea/article/Oakland-cops-kill-fleeing-drug-suspect-3272022.php",
+        "ID": "7416",
+        "Census Block Code": "2004",
+        "Description": "Charles Griffin, a 37 year old African-American/Black Male was killed by police on 08/22/2008. Police shot and killed Charles Griffin after he tried to flee an arrest with an officer in his car.",
+        "year": "2008",
+        "age": 37,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.26761,
+          37.802809
+        ],
+        "type": "Point"
+      },
+      "id": "40bbd1d3964fc0377a039687300c9923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Male",
+        "img": "",
+        "agency": "California Highway Patrol",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Thomas Allen Freeman Jr.",
+        "date": "6-Apr-00",
+        "desc": "CHP officers shot and killed Thomas Allen Freeman Jr. on the upper deck of the Bay Bridge after he allegedly shot at them.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "401400",
+        "address": "Bay Bridge",
+        "link": "http://www.sfgate.com/crime/article/Police-Identify-Bay-Bridge-Gunman-Man-on-2789417.php",
+        "ID": "156",
+        "Census Block Code": "3017",
+        "Description": "Thomas Allen Freeman Jr., a 40 year old African-American/Black Male was killed by police on 04/06/2000. CHP officers shot and killed Thomas Allen Freeman Jr. on the upper deck of the Bay Bridge after he allegedly shot at them.",
+        "year": "2000",
+        "age": 40,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.275728,
+          37.818053
+        ],
+        "type": "Point"
+      },
+      "id": "41407e0e3688f1d7c64752bb98decc7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://postnewsgroup.com/wp-content/uploads/2015/08/AfRichieChe-620x517.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Asphyxiated/Restrained",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Richard Linyard",
+        "date": "19-Jul-15",
+        "desc": "Richard Linyard reportedly died of asphyxiation and was found wedged between two buildings after fleeing police during a traffic stop in East Oakland.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "408700",
+        "address": "1600 64th Avenue",
+        "link": "http://www.sfgate.com/crime/article/Coroner-Oakland-man-in-July-police-chase-died-of-6639695.php",
+        "ID": "16398",
+        "Census Block Code": "3008",
+        "Description": "Richard Linyard, a 23 year old African-American/Black Male was killed by police on 07/19/2015. Richard Linyard reportedly died of asphyxiation and was found wedged between two buildings after fleeing police during a traffic stop in East Oakland.",
+        "year": "2015",
+        "age": 23,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.195079,
+          37.763345
+        ],
+        "type": "Point"
+      },
+      "id": "4361181a7f7b3856bd0789dd693d8ba5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Female",
+        "img": "http://ww2.hdnux.com/photos/10/01/45/2103673/3/920x920.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Breeonna Mobley",
+        "date": "10-May-03",
+        "desc": "Breeonna Mobley, was killed when the car in which she was riding crashed into a tree at more than 100 mph while fleeing police.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "409000",
+        "address": "Hegenberger Road and International Boulevard",
+        "link": "http://www.berkeleydailyplanet.com/issue/2003-05-16/article/16649?headline=UnderCurrents--From-J.-Douglas-Allen-Taylor",
+        "ID": "2510",
+        "Census Block Code": "2050",
+        "Description": "Breeonna Mobley, a 24 year old African-American/Black Female was killed by police on 05/10/2003. Breeonna Mobley, was killed when the car in which she was riding crashed into a tree at more than 100 mph while fleeing police.",
+        "year": "2003",
+        "age": 24,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.198035,
+          37.734377
+        ],
+        "type": "Point"
+      },
+      "id": "43ab3ba7b3d900998c16112086bcc718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://ak-cache.legacy.net/usercontent/guestbook/photos/2010-05/2010-05-21/40462152.jpgx?w=530&h=390&option=1&fc=000",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Martin Contreras",
+        "date": "24-Apr-10",
+        "desc": "Martin Contreras was a passenger killed when a 1997 Chevrolet Camaro being chased by the CHP crashed into an Oakland apartment building.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "3",
+        "Census Tract Code": "408800",
+        "address": "International Boulevard and 68th Avenue",
+        "link": "http://www.sfgate.com/bayarea/article/Teen-in-fatal-crash-was-drunk-armed-cops-say-3191471.php",
+        "ID": "9053",
+        "Census Block Code": "3008",
+        "Description": "Martin Contreras, a 22 year old Hispanic/Latino Male was killed by police on 04/24/2010. Martin Contreras was a passenger killed when a 1997 Chevrolet Camaro being chased by the CHP crashed into an Oakland apartment building.",
+        "year": "2010",
+        "age": 22,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.191056,
+          37.761139
+        ],
+        "type": "Point"
+      },
+      "id": "45479912c0db4ee671c1f285400a2b22"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "https://cbssanfran.files.wordpress.com/2015/08/nathaniel_wilks_081415.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.8",
+        "city": "Oakland",
+        "name": "Nathaniel Wilks",
+        "date": "12-Aug-15",
+        "desc": "Police were pursuing Wilks in a car chase when Wilks crashed his vehicle. He then attempted to carjack another car, pointed a gun at police, and was shot by three officers.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "401400",
+        "address": "27th Street and Martin Luther King Jr. Way",
+        "link": "http://www.sfgate.com/bayarea/article/Calls-for-justice-at-vigil-for-man-killed-by-6445927.php",
+        "ID": "16508",
+        "Census Block Code": "3003",
+        "Description": "Nathaniel Wilks, a 24 year old African-American/Black Male was killed by police on 08/12/2015. Police were pursuing Wilks in a car chase when Wilks crashed his vehicle. He then attempted to carjack another car, pointed a gun at police, and was shot by three officers.",
+        "year": "2015",
+        "age": 24,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.271582,
+          37.817116
+        ],
+        "type": "Point"
+      },
+      "id": "484a9f78abdfc2ad2e3d79a967140497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Dominique Currington",
+        "date": "10-Dec-08",
+        "desc": "Passenger Dominique Currington was killed in a crash near the Bay Bridge after the driver fled a traffic stop.",
+        "race": "Race unspecified",
+        "Census Block Group": "3",
+        "Census Tract Code": "433000",
+        "address": "I-580 and Maritime Street",
+        "link": "http://www.insidebayarea.com/ci_11192208",
+        "ID": "7701",
+        "Census Block Code": "3014",
+        "Description": "Dominique Currington, a 22 year old Race unspecified Male was killed by police on 12/10/2008. Passenger Dominique Currington was killed in a crash near the Bay Bridge after the driver fled a traffic stop.",
+        "year": "2008",
+        "age": 22,
+        "Place FIPS": "668084"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.130973,
+          37.714336
+        ],
+        "type": "Point"
+      },
+      "id": "4920bd2034eefba97ab9d730b6707cff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Asphyxiated/Restrained",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Timothy Short",
+        "date": "13-Aug-04",
+        "desc": "Timothy Short died in police custody after apparently suffocating on a bag of rock cocaine he swallowed",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "410300",
+        "address": "9800 Walnut Street",
+        "link": "https://drive.google.com/file/d/0B62PuBu1vKRLZHRrc2hJdzhJWGs/view?usp=sharing",
+        "ID": "3575",
+        "Census Block Code": "3005",
+        "Description": "Timothy Short, a 36 year old African-American/Black Male was killed by police on 08/13/2004. Timothy Short died in police custody after apparently suffocating on a bag of rock cocaine he swallowed",
+        "year": "2004",
+        "age": 36,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.168323,
+          37.745593
+        ],
+        "type": "Point"
+      },
+      "id": "497e652e350850408cc4a097adfbdc1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Female",
+        "img": "https://drive.google.com/file/d/0B62PuBu1vKRLX1dlckxtclA3Z1k/view?usp=sharing",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Brianna Elaine Carmina Ford",
+        "date": "27-Dec-12",
+        "desc": "Brianna Elaine Carmina Ford was killed when a man fleeing the CHP in his BMW broadsided a sedan in which she was a passenger.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "410100",
+        "address": "3000 98th Avenue",
+        "link": "http://www.mercurynews.com/breaking-news/ci_22306826/woman-killed-oakland-crash-last-week-identified",
+        "ID": "12151",
+        "Census Block Code": "2000",
+        "Description": "Brianna Elaine Carmina Ford, a 21 year old African-American/Black Female was killed by police on 12/27/2012. Brianna Elaine Carmina Ford was killed when a man fleeing the CHP in his BMW broadsided a sedan in which she was a passenger.",
+        "year": "2012",
+        "age": 21,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.153355,
+          37.752447
+        ],
+        "type": "Point"
+      },
+      "id": "4c4d73f1ca1956e4aec879ce8d5cae94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Beaten/Bludgeoned with instrument",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jamil Wheatfall",
+        "date": "14-Apr-01",
+        "desc": "The bank robbery suspect was beaten to death after a high speed pursuit.",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "406700",
+        "address": "",
+        "link": "http://www.sfgate.com/news/article/Dead-suspect-s-family-sues-Oakland-Cops-accused-2850000.php",
+        "ID": "875",
+        "Census Block Code": "4001",
+        "Description": "Jamil Wheatfall, a 36 year old African-American/Black Male was killed by police on 04/14/2001. The bank robbery suspect was beaten to death after a high speed pursuit.",
+        "year": "2001",
+        "age": 36,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.204578,
+          37.802777
+        ],
+        "type": "Point"
+      },
+      "id": "547afb31c8343c98e185da7ee80bd44b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "El Cerrito Police Department, California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Name withheld by police",
+        "date": "26-Jan-13",
+        "desc": "An unnamed 19-year-old passenger was killed when a car fleeing El Cerrito police and the CHP lost contol and crashed in Oakland.",
+        "race": "Race unspecified",
+        "Census Block Group": "3",
+        "Census Tract Code": "409900",
+        "address": "600 Elysian Fields Drive",
+        "link": "http://patch.com/california/elcerrito/police-chase-that-started-in-el-cerrito-ends-with-a-f71dcb8745b",
+        "ID": "12297",
+        "Census Block Code": "3005",
+        "Description": "Name withheld by police, a 19 year old Race unspecified Male was killed by police on 01/26/2013. An unnamed 19-year-old passenger was killed when a car fleeing El Cerrito police and the CHP lost contol and crashed in Oakland.",
+        "year": "2013",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.129208,
+          37.763676
+        ],
+        "type": "Point"
+      },
+      "id": "55d2b8bb43fcf8200a155bb6b16df6cf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Female",
+        "img": "",
+        "agency": "Unreported",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Crystal Erin Little",
+        "date": "4-Feb-03",
+        "desc": "Crystal Erin Little suffered multiple blunt trauma when thrown from a car into oncoming traffic on I-580 after a police chase.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "433000",
+        "address": "I-580 and 98th Ave.",
+        "link": "https://drive.google.com/file/d/0B62PuBu1vKRLeEY3RTR1VDNZU1U/view?usp=sharing",
+        "ID": "2282",
+        "Census Block Code": "3014",
+        "Description": "Crystal Erin Little, a 19 year old African-American/Black Female was killed by police on 02/04/2003. Crystal Erin Little suffered multiple blunt trauma when thrown from a car into oncoming traffic on I-580 after a police chase.",
+        "year": "2003",
+        "age": 19,
+        "Place FIPS": "668084"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.130973,
+          37.714336
+        ],
+        "type": "Point"
+      },
+      "id": "577234d7a472d35b7ee1017325e1dbbb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Robert Wollo",
+        "date": "23-Sep-13",
+        "desc": "Two unidentified gang members were allegedly fleeing a police stop for a shooting crashed into and killed Robert Wollo, 75.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "408600",
+        "address": "2423 Church St",
+        "link": "http://www.eastbaytimes.com/2013/10/03/family-mourns-75-year-old-patriarch-who-fled-liberia-only-to-be-killed-in-oakland/",
+        "ID": "13439",
+        "Census Block Code": "2005",
+        "Description": "Robert Wollo, a 75 year old African-American/Black Male was killed by police on 09/23/2013. Two unidentified gang members were allegedly fleeing a police stop for a shooting crashed into and killed Robert Wollo, 75.",
+        "year": "2013",
+        "age": 75,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.179992,
+          37.767974
+        ],
+        "type": "Point"
+      },
+      "id": "58d161cf4a172fb3c9edf8975f50f1fe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Alameda County Sheriff's Office",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Kao Liew Saephan",
+        "date": "4-Aug-13",
+        "desc": "Kao Liew Saephan was killed when the Toyota pickup truck he was riding in was broadsided by a Porsche Cayenne being chased by deputies in East Oakland. According to officials, deputies tried to stop the Porsche's driver for speeding at about 4:45 a.m. on International Boulevard. Deputies chased the Porsche when the driver didn't pull over. Less than a minute after the chase started, the Porsche reportedly ran a stop sign and crashed into the passenger side of the Toyota. Saephan died at a hospital. The driver of the truck was hospitalized in critical condition. The Porsche's driver, Gerardo Ulises Rodriguez, 27, was charged with reckless driving causing great bodily injury or death, evading police and hit and run.",
+        "race": "Asian/Pacific Islander",
+        "Census Block Group": "1",
+        "Census Tract Code": "407200",
+        "address": "41st Ave. and Foothill Blvd.",
+        "link": "http://www.mercurynews.com/breaking-news/ci_23807644/man-charged-fatal-crash-east-oakland",
+        "ID": "13204",
+        "Census Block Code": "1002",
+        "Description": "Kao Liew Saephan, a 37 year old Asian/Pacific Islander Male was killed by police on 08/04/2013. Kao Liew Saephan was killed when the Toyota pickup truck he was riding in was broadsided by a Porsche Cayenne being chased by deputies in East Oakland. According to officials, deputies tried to stop the Porsche's driver for speeding at about 4:45 a.m. on International Boulevard. Deputies chased the Porsche when the driver didn't pull over. Less than a minute after the chase started, the Porsche reportedly ran a stop sign and crashed into the passenger side of the Toyota. Saephan died at a hospital. The driver of the truck was hospitalized in critical condition. The Porsche's driver, Gerardo Ulises Rodriguez, 27, was charged with reckless driving causing great bodily injury or death, evading police and hit and run.",
+        "year": "2013",
+        "age": 37,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.213859,
+          37.77652
+        ],
+        "type": "Point"
+      },
+      "id": "5e71038f5096849963634f73e6e2936d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://1.bp.blogspot.com/-OUx3d5AVK5k/UodaGfNmWrI/AAAAAAAAKQM/3itQ65PW6Ak/s200/Jerry+Amaro+III.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Beaten/Bludgeoned with instrument",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jerry Andrew Amaro III",
+        "date": "23-Mar-00",
+        "desc": "Jerry Andrew Amaro III died April 21, 2000, from pneumonia caused by multiple rib fractures and a collapsed lung after he was beaten by police the month before.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "5",
+        "Census Tract Code": "408500",
+        "address": "Holly Street and 73rd Avenue",
+        "link": "http://www.sfgate.com/crime/article/Documents-suggest-cover-up-in-Oakland-beating-3242581.php",
+        "ID": "134",
+        "Census Block Code": "5002",
+        "Description": "Jerry Andrew Amaro III, a 36 year old Hispanic/Latino Male was killed by police on 03/23/2000. Jerry Andrew Amaro III died April 21, 2000, from pneumonia caused by multiple rib fractures and a collapsed lung after he was beaten by police the month before.",
+        "year": "2000",
+        "age": 36,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.182856,
+          37.762091
+        ],
+        "type": "Point"
+      },
+      "id": "5f79a6aeb9a2f562d4e29d53e491b127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Martin Flenaugh",
+        "date": "26-Jan-11",
+        "desc": "Police were investigating reports of gunshots fired by two men in a red Infinity. The police pursued a car matching that description, which ran a red light, crashed into another vehicle, spun out and burst into flames. Flenaugh was the passenger. Flenaugh was shot by officers after he confronted the officers with multiple firearms.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "409500",
+        "address": "8500 San Leandro St.",
+        "link": "http://oaklandnorth.net/2011/01/27/oakland-police-department-releases-new-details-in-officer-involved-shooting/",
+        "ID": "9826",
+        "Census Block Code": "1006",
+        "Description": "Martin Flenaugh, a 19 year old African-American/Black Male was killed by police on 01/26/2011. Police were investigating reports of gunshots fired by two men in a red Infinity. The police pursued a car matching that description, which ran a red light, crashed into another vehicle, spun out and burst into flames. Flenaugh was the passenger. Flenaugh was shot by officers after he confronted the officers with multiple firearms.",
+        "year": "2011",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.189141,
+          37.747107
+        ],
+        "type": "Point"
+      },
+      "id": "612320f34452177cdd07018ee056d747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Female",
+        "img": "",
+        "agency": "Alameda Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Alameda",
+        "name": "Karen O. Chin",
+        "date": "4-May-00",
+        "desc": "Officers Steven Rodekohr and Liza Godineaux shot and killed Karen O. Chin when she allegedly ignored their orders to stop stabbing her sister.",
+        "race": "Asian/Pacific Islander",
+        "Census Block Group": "1",
+        "Census Tract Code": "428600",
+        "address": "1100 Rosewood Way",
+        "link": "http://www.sfgate.com/bayarea/article/ALAMEDA-COUNTY-Police-Officers-Identified-In-2782605.php",
+        "ID": "207",
+        "Census Block Code": "1001",
+        "Description": "Karen O. Chin, a 44 year old Asian/Pacific Islander Female was killed by police on 05/04/2000. Officers Steven Rodekohr and Liza Godineaux shot and killed Karen O. Chin when she allegedly ignored their orders to stop stabbing her sister.",
+        "year": "2000",
+        "age": 44,
+        "Place FIPS": "600562"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.267535,
+          37.764049
+        ],
+        "type": "Point"
+      },
+      "id": "625bb690568837ff85ceef7004568763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Maurice Evans Shavers Jr.",
+        "date": "20-Jan-10",
+        "desc": "Maurice Evans Shavers Jr., 21, was killed during a shootout following a robbery at Walgreens.",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "401100",
+        "address": "5055 Telegraph Ave.",
+        "link": "http://positiveleo.wordpress.com/2010/09/17/hero-cops-dumped-oakland-for-hayward/",
+        "ID": "8780",
+        "Census Block Code": "4003",
+        "Description": "Maurice Evans Shavers Jr., a 21 year old African-American/Black Male was killed by police on 01/20/2010. Maurice Evans Shavers Jr., 21, was killed during a shootout following a robbery at Walgreens.",
+        "year": "2010",
+        "age": 21,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.262618,
+          37.837036
+        ],
+        "type": "Point"
+      },
+      "id": "6acabdfc58dda53180323ca12ce3f27a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Alameda Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Alameda",
+        "name": "Laroy Brown",
+        "date": "18-Jul-13",
+        "desc": "An off-duty Alameda County Sheriff's deputy fatally shot a gunman inside an Alameda grocery store during an attempted robbery.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "428100",
+        "address": "1505 High St",
+        "link": "http://abclocal.go.com/kgo/story?section=news%2Flocal%2Feast_bay&id=9178148",
+        "ID": "13126",
+        "Census Block Code": "2009",
+        "Description": "Laroy Brown, a 42 year old African-American/Black Male was killed by police on 07/18/2013. An off-duty Alameda County Sheriff's deputy fatally shot a gunman inside an Alameda grocery store during an attempted robbery.",
+        "year": "2013",
+        "age": 42,
+        "Place FIPS": "600562"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.230974,
+          37.759337
+        ],
+        "type": "Point"
+      },
+      "id": "6cdd2b6b3e83a83773dcfb4d5f9dd082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Casper Banjo",
+        "date": "14-Mar-08",
+        "desc": "Casper Banjo, 71, was killed near the Eastmont police substation after he pointed a replica pistol at officers.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "408400",
+        "address": "2600 73rd Avenue",
+        "link": "http://wandasabir.blogspot.com/2008/03/casper-banjo-killed-march-14-by-opd.html",
+        "ID": "6987",
+        "Census Block Code": "1010",
+        "Description": "Casper Banjo, a 71 year old African-American/Black Male was killed by police on 03/14/2008. Casper Banjo, 71, was killed near the Eastmont police substation after he pointed a replica pistol at officers.",
+        "year": "2008",
+        "age": 71,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.1757,
+          37.766781
+        ],
+        "type": "Point"
+      },
+      "id": "6e7ed6470d84f2497f1c058c78e364ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.92",
+        "city": "Oakland",
+        "name": "Andrew Gonzalez",
+        "date": "26-Apr-08",
+        "desc": "Officers shot Andrew Marcus Gonzalez, 21, after he crashed his carjacked car into a police cruiser, then tried to flee.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "3",
+        "Census Tract Code": "406100",
+        "address": "29th Avenue and East Seventh Street",
+        "link": "",
+        "ID": "7098",
+        "Census Block Code": "3009",
+        "Description": "Andrew Gonzalez, a 21 year old Hispanic/Latino Male was killed by police on 04/26/2008. Officers shot Andrew Marcus Gonzalez, 21, after he crashed his carjacked car into a police cruiser, then tried to flee.",
+        "year": "2008",
+        "age": 21,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.234244,
+          37.773921
+        ],
+        "type": "Point"
+      },
+      "id": "6f27789b1a66cdd1159071df57e501ee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Female",
+        "img": "http://www.kristieslaw.org/images/jessica.gif",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.95",
+        "city": "Oakland",
+        "name": "Jessica Castaneda-Rodriguez",
+        "date": "27-May-06",
+        "desc": "Jessica Castaneda-Rodriguez and Salvador Nieves Jr. were killed when a driver being chased by police ran a red light and crashed into their 2005 Nissan Sentra.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "2",
+        "Census Tract Code": "409800",
+        "address": "90th Ave. and MacArthur Boulevard",
+        "link": "http://www.berkeleydailyplanet.com/issue/2006-06-02/article/24309?headline=Column-Undercurrents-Two-More-Innocent-Bystanders-Die-in-High-Speed-Chase&status=301",
+        "ID": "5162",
+        "Census Block Code": "2013",
+        "Description": "Jessica Castaneda-Rodriguez, a 25 year old Hispanic/Latino Female was killed by police on 05/27/2006. Jessica Castaneda-Rodriguez and Salvador Nieves Jr. were killed when a driver being chased by police ran a red light and crashed into their 2005 Nissan Sentra.",
+        "year": "2006",
+        "age": 25,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.160766,
+          37.75578
+        ],
+        "type": "Point"
+      },
+      "id": "736a340c584b26f4ba34d4abbcc6a717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Medical emergency",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Hernan Jaramillo",
+        "date": "8-Jul-13",
+        "desc": "Died after a struggle with Oakland police officers who were attempting to force him into a police vehicle.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "2",
+        "Census Tract Code": "405901",
+        "address": "2300 East 21st Street",
+        "link": "http://www.sfgate.com/bayarea/article/Oakland-man-dies-in-police-custody-4653384.php",
+        "ID": "13072",
+        "Census Block Code": "2004",
+        "Description": "Hernan Jaramillo, a 51 year old Hispanic/Latino Male was killed by police on 07/08/2013. Died after a struggle with Oakland police officers who were attempting to force him into a police vehicle.",
+        "year": "2013",
+        "age": 51,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.231654,
+          37.788818
+        ],
+        "type": "Point"
+      },
+      "id": "74d2bf48199047f6c28e9a8d030828ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "California Highway Patrol, Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.8",
+        "city": "Oakland",
+        "name": "Name withheld by police",
+        "date": "14-Feb-14",
+        "desc": "An unnamed driver was killed after he crashed an allegedly stolen car in East Oakland while fleeing from the CHP.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "3",
+        "Census Tract Code": "409300",
+        "address": "98th Avenue and San Leandro Boulevard",
+        "link": "http://www.sfgate.com/crime/article/Stolen-car-driver-dies-in-Oakland-crash-after-CHP-5237574.php",
+        "ID": "14073",
+        "Census Block Code": "3011",
+        "Description": "Name withheld by police, a 38 year old Hispanic/Latino Male was killed by police on 02/14/2014. An unnamed driver was killed after he crashed an allegedly stolen car in East Oakland while fleeing from the CHP.",
+        "year": "2014",
+        "age": 38,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.179848,
+          37.739159
+        ],
+        "type": "Point"
+      },
+      "id": "74e7ce56334faff240178c2602af5b98"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://ww2.hdnux.com/photos/10/30/40/2197541/5/1024x1024.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.92",
+        "city": "Oakland",
+        "name": "Theophilus William Darku",
+        "date": "18-Sep-02",
+        "desc": "Theophilus Darku was killed while driving with his 10-year-old granddaughter, when a stolen Saab fleeing police crashed into his turquoise Dodge Caravan.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "406601",
+        "address": "School Street and Coolidge Avenue",
+        "link": "http://www.sfgate.com/bayarea/article/Carjacker-suspect-fleeing-police-causes-fatal-2768301.php",
+        "ID": "1977",
+        "Census Block Code": "3016",
+        "Description": "Theophilus William Darku, a 75 year old African-American/Black Male was killed by police on 09/18/2002. Theophilus Darku was killed while driving with his 10-year-old granddaughter, when a stolen Saab fleeing police crashed into his turquoise Dodge Caravan.",
+        "year": "2002",
+        "age": 75,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.211927,
+          37.795346
+        ],
+        "type": "Point"
+      },
+      "id": "75c0ea0e5213ff7ce2f27fdd5054dc68"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Villa Valvatin",
+        "date": "21-Dec-07",
+        "desc": "Villa was driving a car that contained three other men that had been stopped at a stop sign for some time, arousing the suspicions of residents, who called police. Two Oakland police officers responded and as they approached the vehicle they said Villa started reaching for a pistol near him.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "2",
+        "Census Tract Code": "408500",
+        "address": "2400 Ritchie Street",
+        "link": "http://www.insidebayarea.com/search/ci_7805308?IADID=Search-www.insidebayarea.com-www.insidebayarea.com",
+        "ID": "6761",
+        "Census Block Code": "2003",
+        "Description": "Villa Valvatin, a 26 year old Hispanic/Latino Male was killed by police on 12/21/2007. Villa was driving a car that contained three other men that had been stopped at a stop sign for some time, arousing the suspicions of residents, who called police. Two Oakland police officers responded and as they approached the vehicle they said Villa started reaching for a pistol near him.",
+        "year": "2007",
+        "age": 26,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.173849,
+          37.761344
+        ],
+        "type": "Point"
+      },
+      "id": "77600d27d50959b8e68b019a512d49f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Eric Basuino",
+        "date": "5-Nov-08",
+        "desc": "Eric Basuino reportedly shot his wife, Laura Sweat, as she tried to escape when police came to the door, then retreated to the back of the house and killed himself.",
+        "race": "Race unspecified",
+        "Census Block Group": "1",
+        "Census Tract Code": "408200",
+        "address": "6168 Mauritania Ave.",
+        "link": "http://www.insidebayarea.com/ci_10909401",
+        "ID": "7600",
+        "Census Block Code": "1009",
+        "Description": "Eric Basuino, a 41 year old Race unspecified Male was killed by police on 11/05/2008. Eric Basuino reportedly shot his wife, Laura Sweat, as she tried to escape when police came to the door, then retreated to the back of the house and killed himself.",
+        "year": "2008",
+        "age": 41,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.179811,
+          37.775962
+        ],
+        "type": "Point"
+      },
+      "id": "785835b32eb1293d9783ae9cf8ca4ded"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Female",
+        "img": "",
+        "agency": "San Leandro Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.9",
+        "city": "Oakland",
+        "name": "Gwendolyn Killings",
+        "date": "29-Dec-10",
+        "desc": "Killings, 39, was shot after allegedly leading police on a car chase, San Leandro police Lt. Jeff Tudor said. The passenger in the car, Oakland resident Richard Lee III, 43, was arrested on suspicion of possession of a stolen vehicle and possession of stolen property",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "410200",
+        "address": "10900 Bancroft Ave",
+        "link": "http://patch.com/california/sanleandro/city-sued-for-15-million-by-daughter-of-woman-shot-by-police",
+        "ID": "9745",
+        "Census Block Code": "3008",
+        "Description": "Gwendolyn Killings, a 39 year old African-American/Black Female was killed by police on 12/29/2010. Killings, 39, was shot after allegedly leading police on a car chase, San Leandro police Lt. Jeff Tudor said. The passenger in the car, Oakland resident Richard Lee III, 43, was arrested on suspicion of possession of a stolen vehicle and possession of stolen property",
+        "year": "2010",
+        "age": 39,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.155543,
+          37.739829
+        ],
+        "type": "Point"
+      },
+      "id": "797638cc58038ae0ad83ba03e0d9e29d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://www.fatalencounters.org/wp-content/uploads/2013/10/Jesse-Enjaian.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jesse Enjaian",
+        "date": "17-Feb-17",
+        "desc": "Jesse Enjaian was apparently firing a rifle in a neighborhood and shot at police who arrived to investigate. He was shot and killed.",
+        "race": "European-American/White",
+        "Census Block Group": "2",
+        "Census Tract Code": "409800",
+        "address": "98th Ave. and Las Vegas Ave.",
+        "link": "http://abc7news.com/news/oakland-shooter-detained-by-cops-dies/1759833/",
+        "ID": "19044",
+        "Census Block Code": "2008",
+        "Description": "Jesse Enjaian, a 32 year old European-American/White Male was killed by police on 02/17/2017. Jesse Enjaian was apparently firing a rifle in a neighborhood and shot at police who arrived to investigate. He was shot and killed.",
+        "year": "2017",
+        "age": 32,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.152524,
+          37.753892
+        ],
+        "type": "Point"
+      },
+      "id": "7dea721b781882e89881c5ae277667f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Terrance S. Silva",
+        "date": "26-Apr-13",
+        "desc": "An unnamed motorcyclist fleeing from police was killed after he drove into oncoming traffic, crashed into a guardrail and was thrown from the bike. He was pronounced dead at the scene.",
+        "race": "European-American/White",
+        "Census Block Group": "1",
+        "Census Tract Code": "407700",
+        "address": "Seminary Ave. and Picardy Dr.",
+        "link": "http://www.eastbaytimes.com/ci_23122220/motorcyclist-killed-east-oakland-while-fleeing-police",
+        "ID": "12698",
+        "Census Block Code": "1013",
+        "Description": "Terrance S. Silva, a 47 year old European-American/White Male was killed by police on 04/26/2013. An unnamed motorcyclist fleeing from police was killed after he drove into oncoming traffic, crashed into a guardrail and was thrown from the bike. He was pronounced dead at the scene.",
+        "year": "2013",
+        "age": 47,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.187994,
+          37.773211
+        ],
+        "type": "Point"
+      },
+      "id": "82674b1607c402c6a25fd1d3acb74dfb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Male",
+        "img": "https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/t31.0-8/12027345_10153174756514607_4875538779407116905_o.jpg",
+        "agency": "San Leandro Police Department, California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Chaz Anthony Williams",
+        "date": "1-Oct-11",
+        "desc": "Chaz Anthony Williams, BreeAnne Green and Adrian Ary were killed when their 1990 Buick LeSabre crashed while fleeing police after stealing alcohol from a San Leandro FoodMaxx.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "409300",
+        "address": "I-880 and 98th Avenue",
+        "link": "http://www.sfgate.com/crime/article/Oakland-car-crash-kills-3-fleeing-police-2328978.php",
+        "ID": "10630",
+        "Census Block Code": "3016",
+        "Description": "Chaz Anthony Williams, a 29 year old African-American/Black Male was killed by police on 10/01/2011. Chaz Anthony Williams, BreeAnne Green and Adrian Ary were killed when their 1990 Buick LeSabre crashed while fleeing police after stealing alcohol from a San Leandro FoodMaxx.",
+        "year": "2011",
+        "age": 29,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.179454,
+          37.736531
+        ],
+        "type": "Point"
+      },
+      "id": "84d7c95a911f06710397b44931ed7231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Male",
+        "img": "http://assets.nydailynews.com/polopoly_fs/1.130539.1313974977!/img/httpImage/image.jpg_gen/derivatives/article_970/alg-alameda-drowning-1-jpg.jpg",
+        "agency": "Alameda Police Department",
+        "cause": "Drowned",
+        "Accuracy Score": "1",
+        "city": "Alameda",
+        "name": "Raymond Zack",
+        "date": "30-May-11",
+        "desc": "Raymond Zack, who reportedly suffered from mental illness, drowned an hour after wading into the San Francisco Bay as police, firefighters, and dozens of onlookers watched him slowly succumb to the chilly waters.",
+        "race": "European-American/White",
+        "Census Block Group": "2",
+        "Census Tract Code": "427700",
+        "address": "Crown Memorial State Beach",
+        "link": "http://mentalillnesspolicy.org/states/california/alamedatragedies.html",
+        "ID": "10228",
+        "Census Block Code": "2008",
+        "Description": "Raymond Zack, a 52 year old European-American/White Male was killed by police on 05/30/2011. Raymond Zack, who reportedly suffered from mental illness, drowned an hour after wading into the San Francisco Bay as police, firefighters, and dozens of onlookers watched him slowly succumb to the chilly waters.",
+        "year": "2011",
+        "age": 52,
+        "Place FIPS": "600562"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.28115,
+          37.769205
+        ],
+        "type": "Point"
+      },
+      "id": "853598c2abcefd6e8df0bb89b91cbb8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Asphyxiated/Restrained",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Dynami McCree",
+        "date": "17-Jul-07",
+        "desc": "Dynami McCree refused to remove a plastic bag full of suspected cocaine concealed in his buttocks and died after he removed and swallowed the contents while handcuffed in the back of a police car, police said.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "409600",
+        "address": "1900 87th Avenue",
+        "link": "http://www.insidebayarea.com/ci_6411104?source=rss",
+        "ID": "6348",
+        "Census Block Code": "2005",
+        "Description": "Dynami McCree, a 33 year old African-American/Black Male was killed by police on 07/17/2007. Dynami McCree refused to remove a plastic bag full of suspected cocaine concealed in his buttocks and died after he removed and swallowed the contents while handcuffed in the back of a police car, police said.",
+        "year": "2007",
+        "age": 33,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.170813,
+          37.753877
+        ],
+        "type": "Point"
+      },
+      "id": "8575fab6ffbaabf79d94b942bc48a1d9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Female",
+        "img": "",
+        "agency": "Oakland Police Department, California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Sarah McNeil",
+        "date": "7-Apr-06",
+        "desc": "Cleora Chrisman was killed when Sarah McNeil, a driver fleeing police, ran a red light and crashed into Chrisman's car in West Oakland. McNeil was also killed.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "401100",
+        "address": "40th St. and West St.",
+        "link": "http://www.sfgate.com/news/article/Oakland-woman-who-led-cops-on-chase-dies-after-2536451.php",
+        "ID": "5023",
+        "Census Block Code": "2012",
+        "Description": "Sarah McNeil, a 29 year old African-American/Black Female was killed by police on 04/07/2006. Cleora Chrisman was killed when Sarah McNeil, a driver fleeing police, ran a red light and crashed into Chrisman's car in West Oakland. McNeil was also killed.",
+        "year": "2006",
+        "age": 29,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.26441,
+          37.829053
+        ],
+        "type": "Point"
+      },
+      "id": "8a418d90b12e45b959dcef36a1eb80b8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Male",
+        "img": "https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/t31.0-8/12027345_10153174756514607_4875538779407116905_o.jpg",
+        "agency": "San Leandro Police Department, California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Adrian Ary",
+        "date": "1-Oct-11",
+        "desc": "Chaz Anthony Williams, BreeAnne Green and Adrian Ary were killed when their 1990 Buick LeSabre crashed while fleeing police after stealing alcohol from a San Leandro FoodMaxx.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "409300",
+        "address": "I-880 and 98th Avenue",
+        "link": "http://www.sfgate.com/crime/article/Oakland-car-crash-kills-3-fleeing-police-2328978.php",
+        "ID": "10632",
+        "Census Block Code": "3016",
+        "Description": "Adrian Ary, a 27 year old African-American/Black Male was killed by police on 10/01/2011. Chaz Anthony Williams, BreeAnne Green and Adrian Ary were killed when their 1990 Buick LeSabre crashed while fleeing police after stealing alcohol from a San Leandro FoodMaxx.",
+        "year": "2011",
+        "age": 27,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.179454,
+          37.736531
+        ],
+        "type": "Point"
+      },
+      "id": "8a5c414021d4b5521d4cc4acb2c230ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Andrew Moppin-Buckskin",
+        "date": "31-Dec-07",
+        "desc": "Moppin-Buckskin ran from his car after a traffic stop. Police said he was reaching for his waistband, although later no weapon was found.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "2",
+        "Census Tract Code": "407300",
+        "address": "1200 47th Avenue",
+        "link": "http://abclocal.go.com/kgo/story?section=news/local/east_bay&id=6551184",
+        "ID": "6784",
+        "Census Block Code": "2014",
+        "Description": "Andrew Moppin-Buckskin, a 20 year old Hispanic/Latino Male was killed by police on 12/31/2007. Moppin-Buckskin ran from his car after a traffic stop. Police said he was reaching for his waistband, although later no weapon was found.",
+        "year": "2007",
+        "age": 20,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.212703,
+          37.769201
+        ],
+        "type": "Point"
+      },
+      "id": "9007a48a5d6159dfdf5c82df4dfefd0f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Female",
+        "img": "https://a2-images.myspacecdn.com/images01/34/24f914ff3213d06bf520e03e8006c165/full.jpg",
+        "agency": "San Leandro Police Department, California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "BreeAnne Green",
+        "date": "1-Oct-11",
+        "desc": "Chaz Anthony Williams, BreeAnne Green and Adrian Ary were killed when their 1990 Buick LeSabre crashed while fleeing police after stealing alcohol from a San Leandro FoodMaxx.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "409300",
+        "address": "I-880 and 98th Avenue",
+        "link": "http://www.sfgate.com/crime/article/Oakland-car-crash-kills-3-fleeing-police-2328978.php",
+        "ID": "10631",
+        "Census Block Code": "3016",
+        "Description": "BreeAnne Green, a 20 year old African-American/Black Female was killed by police on 10/01/2011. Chaz Anthony Williams, BreeAnne Green and Adrian Ary were killed when their 1990 Buick LeSabre crashed while fleeing police after stealing alcohol from a San Leandro FoodMaxx.",
+        "year": "2011",
+        "age": 20,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.179454,
+          37.736531
+        ],
+        "type": "Point"
+      },
+      "id": "928da9a66e917b1a17dec2e5e3b1ff1c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "https://drive.google.com/file/d/0B62PuBu1vKRLV3RWQjBBel9IOFU/view?usp=sharing",
+        "agency": "Alameda County Sheriff's Office",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jock'Lyante Quincy Adanandus Sr.",
+        "date": "10-Jun-06",
+        "desc": "Jocklyante Adanandus Sr. and his toddler son, Jocklyante Adanandus Jr., were killed when the elder Adanandus tried to evade a traffic stop by driving through a railroad crossing.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "407300",
+        "address": "66th Avenue and San Leandro Street",
+        "link": "http://www.sfgate.com/bayarea/article/A-fence-strung-with-tragic-memories-farewells-2517431.php",
+        "ID": "5212",
+        "Census Block Code": "1022",
+        "Description": "Jock'Lyante Quincy Adanandus Sr., a 27 year old African-American/Black Male was killed by police on 06/10/2006. Jocklyante Adanandus Sr. and his toddler son, Jocklyante Adanandus Jr., were killed when the elder Adanandus tried to evade a traffic stop by driving through a railroad crossing.",
+        "year": "2006",
+        "age": 27,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.200822,
+          37.756782
+        ],
+        "type": "Point"
+      },
+      "id": "9720aa2b326b14d64509a16825f2ae8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.9",
+        "city": "Oakland",
+        "name": "Gary King Jr.",
+        "date": "20-Sep-07",
+        "desc": "King was leaving a liquor store when he was approached for questioning about a murder. Officer said he felt a gun through King's clothes. King was tasered. Officer fired when he believed King was going for his weapon. Oakland paid $1.5 million in a wrongful death lawsuit.",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "400700",
+        "address": "5300 Martin Luther King Jr. Way",
+        "link": "http://www.sfgate.com/bayarea/article/Cop-who-shot-killed-a-man-had-been-involved-in-2-2501837.php",
+        "ID": "6532",
+        "Census Block Code": "4024",
+        "Description": "Gary King Jr., a 19 year old African-American/Black Male was killed by police on 09/20/2007. King was leaving a liquor store when he was approached for questioning about a murder. Officer said he felt a gun through King's clothes. King was tasered. Officer fired when he believed King was going for his weapon. Oakland paid $1.5 million in a wrongful death lawsuit.",
+        "year": "2007",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.269242,
+          37.837893
+        ],
+        "type": "Point"
+      },
+      "id": "988e3743c85cf433d0269ef3bc42dc85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Charles Hill",
+        "date": "28-Jan-00",
+        "desc": "Officers Marcell Patterson and William A. Pappas shot and killed Charles Hill.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "409700",
+        "address": "2040 87th Ave.",
+        "link": "http://oaklandpolicebeat.com/ois-record/sh00109/",
+        "ID": "38",
+        "Census Block Code": "3007",
+        "Description": "Charles Hill, a 26 year old African-American/Black Male was killed by police on 01/28/2000. Officers Marcell Patterson and William A. Pappas shot and killed Charles Hill.",
+        "year": "2000",
+        "age": 26,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.168659,
+          37.754867
+        ],
+        "type": "Point"
+      },
+      "id": "98d2c8218d88c2a48352efac3c665d15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "California Highway Patrol",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Antonio V. Mestas",
+        "date": "21-Jan-14",
+        "desc": "Mestas led officers on a chase in a stolen SUV through east Oakland after they attempted to pull him over. Officers fired and hit Mestas after he fled the vehicle while holding a loaded handgun.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "407500",
+        "address": "5700 E 15th St",
+        "link": "http://www.sfgate.com/crime/article/Man-shot-dead-by-CHP-in-Oakland-identified-5180347.php",
+        "ID": "13976",
+        "Census Block Code": "2008",
+        "Description": "Antonio V. Mestas, a 19 year old African-American/Black Male was killed by police on 01/21/2014. Mestas led officers on a chase in a stolen SUV through east Oakland after they attempted to pull him over. Officers fired and hit Mestas after he fled the vehicle while holding a loaded handgun.",
+        "year": "2014",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.20039,
+          37.767138
+        ],
+        "type": "Point"
+      },
+      "id": "9ff5f77539ce5777cac3bed416bc20e6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "https://drive.google.com/file/d/0B62PuBu1vKRLV3RWQjBBel9IOFU/view?usp=sharing",
+        "agency": "Alameda County Sheriff's Office",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jock'Lyante Quincy Adanandus Jr.",
+        "date": "10-Jun-06",
+        "desc": "Jocklyante Adanandus Sr. and his toddler son, Jocklyante Adanandus Jr., were killed when the elder Adanandus tried to evade a traffic stop by driving through a railroad crossing.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "407300",
+        "address": "66th Avenue and San Leandro Street",
+        "link": "http://www.sfgate.com/bayarea/article/A-fence-strung-with-tragic-memories-farewells-2517431.php",
+        "ID": "5211",
+        "Census Block Code": "1022",
+        "Description": "Jock'Lyante Quincy Adanandus Jr., a 3 year old African-American/Black Male was killed by police on 06/10/2006. Jocklyante Adanandus Sr. and his toddler son, Jocklyante Adanandus Jr., were killed when the elder Adanandus tried to evade a traffic stop by driving through a railroad crossing.",
+        "year": "2006",
+        "age": 3,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.200822,
+          37.756782
+        ],
+        "type": "Point"
+      },
+      "id": "a58880a551711b6537e531ca211f4e06"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Glen Willis",
+        "date": "6-Aug-03",
+        "desc": "police shot and killed Willis after he stabbed an officer several times in the back and arm. The police described him as mentally unstable. Willis' family told police he was a known schizophrenic and was not taking his medication.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "407500",
+        "address": "5535 Scoville St.",
+        "link": "http://www.mercurynews.com/alameda-county/ci_19611985",
+        "ID": "2696",
+        "Census Block Code": "2004",
+        "Description": "Glen Willis, a 47 year old African-American/Black Male was killed by police on 08/06/2003. police shot and killed Willis after he stabbed an officer several times in the back and arm. The police described him as mentally unstable. Willis' family told police he was a known schizophrenic and was not taking his medication.",
+        "year": "2003",
+        "age": 47,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.200083,
+          37.769262
+        ],
+        "type": "Point"
+      },
+      "id": "aa9cf8385ad3789a48901a7812a98a30"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Asphyxiated/Restrained",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Patrick Gaston",
+        "date": "10-Nov-05",
+        "desc": "Patrick Gaston died during a struggle as police were arresting him on a drug sale charge.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "401800",
+        "address": "8th Street and Campbell Street",
+        "link": "http://www.insidebayarea.com/oaklandtribune/localnews/ci_3211736",
+        "ID": "4681",
+        "Census Block Code": "2012",
+        "Description": "Patrick Gaston, a 34 year old African-American/Black Male was killed by police on 11/10/2005. Patrick Gaston died during a struggle as police were arresting him on a drug sale charge.",
+        "year": "2005",
+        "age": 34,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.29897,
+          37.807356
+        ],
+        "type": "Point"
+      },
+      "id": "aef61afcccb90bec9a5b81033de787eb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://ww2.hdnux.com/photos/11/23/54/2439949/7/628x471.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Parnell Smith",
+        "date": "15-Jul-09",
+        "desc": "Parnell Smith dropped a pistol on the ground and may not have fired it before two Oakland police officers shot him to death during a foot chase.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "405902",
+        "address": "1600 International Boulevard",
+        "link": "http://www.californiabeat.org/2009/07/15/oakland-police-officers-shoot-kill-armed-man-in-wild-afternoon-shootout",
+        "ID": "8277",
+        "Census Block Code": "2038",
+        "Description": "Parnell Smith, a 36 year old African-American/Black Male was killed by police on 07/15/2009. Parnell Smith dropped a pistol on the ground and may not have fired it before two Oakland police officers shot him to death during a foot chase.",
+        "year": "2009",
+        "age": 36,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.244189,
+          37.788506
+        ],
+        "type": "Point"
+      },
+      "id": "b24b7b6d3e3edd5b5d3b08ca1c214aab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Fletcher Jackson",
+        "date": "18-May-11",
+        "desc": "Police responded to a report of gang activity. When they arrived, they say that Jackson and another man emerged with weapons. They fired, killing both Jackson and the other man. Witnesses say neither man had a gun.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "406601",
+        "address": "3000 Curran Avenue",
+        "link": "http://sanfrancisco.cbslocal.com/2011/05/20/relative-of-man-shot-by-oakland-police-questions-why-he-was-killed/",
+        "ID": "10191",
+        "Census Block Code": "2002",
+        "Description": "Fletcher Jackson, a 30 year old African-American/Black Male was killed by police on 05/18/2011. Police responded to a report of gang activity. When they arrived, they say that Jackson and another man emerged with weapons. They fired, killing both Jackson and the other man. Witnesses say neither man had a gun.",
+        "year": "2011",
+        "age": 30,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.211391,
+          37.791883
+        ],
+        "type": "Point"
+      },
+      "id": "b38edc05595fd55f76c5bef3fecfd4e4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Terrance Mearis",
+        "date": "5-Oct-03",
+        "desc": "Mearis was fatally shot by Oakland police officers after Mearis grabbed one of the officer's gun during a struggle.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "409400",
+        "address": "9227 C St.",
+        "link": "http://www.sfgate.com/bayarea/article/OAKLAND-Family-of-man-slain-by-police-settles-2718618.php",
+        "ID": "2844",
+        "Census Block Code": "2001",
+        "Description": "Terrance Mearis, a 20 year old African-American/Black Male was killed by police on 10/05/2003. Mearis was fatally shot by Oakland police officers after Mearis grabbed one of the officer's gun during a struggle.",
+        "year": "2003",
+        "age": 20,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.177913,
+          37.746303
+        ],
+        "type": "Point"
+      },
+      "id": "b460c0f347a2f5f1477605fd39b99cc7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "0.97",
+        "city": "Oakland",
+        "name": "Lesley Xavier Allen",
+        "date": "19-Jul-08",
+        "desc": "Police shot and killed him after a chase into San Leandro.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "432400",
+        "address": "Doolittle Drive and Davis St.",
+        "link": "http://www.huffingtonpost.com/2013/03/22/derrick-jones-trial_n_2935734.html",
+        "ID": "7337",
+        "Census Block Code": "3020",
+        "Description": "Lesley Xavier Allen, a 21 year old African-American/Black Male was killed by police on 07/19/2008. Police shot and killed him after a chase into San Leandro.",
+        "year": "2008",
+        "age": 21,
+        "Place FIPS": "668084"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.186865,
+          37.716287
+        ],
+        "type": "Point"
+      },
+      "id": "b72485f9f750eb9e4e2537843d7fea1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Female",
+        "img": "http://www.killedbypolice.net/victims/150096.jpg",
+        "agency": "Emeryville Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Yuvette Henderson",
+        "date": "3-Feb-15",
+        "desc": "Police chased a woman armed with a gun who was allegedly stealing from a store for about four blocks. They saw her with a gun and immediately opened fire, killing her at the scene.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "401700",
+        "address": "3400 Hollis Street",
+        "link": "http://www.ktvu.com/story/28015839/woman-shot-in-emeryville-officer-involved-shooting",
+        "ID": "15688",
+        "Census Block Code": "1020",
+        "Description": "Yuvette Henderson, a 38 year old African-American/Black Female was killed by police on 02/03/2015. Police chased a woman armed with a gun who was allegedly stealing from a store for about four blocks. They saw her with a gun and immediately opened fire, killing her at the scene.",
+        "year": "2015",
+        "age": 38,
+        "Place FIPS": "622594"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.284112,
+          37.826406
+        ],
+        "type": "Point"
+      },
+      "id": "b7ef3ff5d46ae775948c094a0cf31ef7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Ryan Lamont Hardy",
+        "date": "21-Sep-04",
+        "desc": "Ryan Lamont Hardy died when the van he was driving crashed into a tree and caught fire during a police chase.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "401500",
+        "address": "3300 Peralta Street",
+        "link": "http://www.sfgate.com/bayarea/article/OAKLAND-Dead-crime-spree-suspects-identified-2723208.php",
+        "ID": "3654",
+        "Census Block Code": "1016",
+        "Description": "Ryan Lamont Hardy, a 28 year old African-American/Black Male was killed by police on 09/21/2004. Ryan Lamont Hardy died when the van he was driving crashed into a tree and caught fire during a police chase.",
+        "year": "2004",
+        "age": 28,
+        "Place FIPS": "622594"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.283076,
+          37.825014
+        ],
+        "type": "Point"
+      },
+      "id": "b7ffa5249ce97686eada96e217aa5c11"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://ak-cache.legacy.net/legacy/images/cobrands/sfgate/photos/5408854_052109_7.jpgx?w=130&h=180&option=1&v=0x000000001f8f7f13",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.9",
+        "city": "Oakland",
+        "name": "Todd Anthony Perea",
+        "date": "16-May-09",
+        "desc": "Motorist Anthony Perea and pedestrian Floyd Ross Jr. were killed when homicide suspects being chased by police crashed into Perea's car, which then struck Ross.",
+        "race": "European-American/White",
+        "Census Block Group": "3",
+        "Census Tract Code": "400700",
+        "address": "5640 Martin Luther King Jr. Way",
+        "link": "http://www.berkeleydailyplanet.com/issue/2009-05-14/article/32907?headline=-Bloody-Saturday-Night-Leaves-Three-Dead---By-Bay-City-News-Service-",
+        "ID": "8099",
+        "Census Block Code": "3001",
+        "Description": "Todd Anthony Perea, a 27 year old European-American/White Male was killed by police on 05/16/2009. Motorist Anthony Perea and pedestrian Floyd Ross Jr. were killed when homicide suspects being chased by police crashed into Perea's car, which then struck Ross.",
+        "year": "2009",
+        "age": 27,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.270003,
+          37.841263
+        ],
+        "type": "Point"
+      },
+      "id": "b8c449b4de9385dc3535b98f6976dbbc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://ak-cache.legacy.net/legacy/images/Cobrands/InsideBayArea/Photos/MarkAragon.eps_20101108.jpgx?w=130&h=180&option=1&v=0x000000002f9ae4bc",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Mark Aragon",
+        "date": "4-Nov-10",
+        "desc": "Connectis Guilton was reportedly fleeing from the CHP when his BMW collided with a SUV driven by Mark Aragon, killing both drivers.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "3",
+        "Census Tract Code": "410200",
+        "address": "106th Avenue and MacArthur Boulevard",
+        "link": "http://www.sfgate.com/crime/article/High-speed-chase-ends-in-2-deaths-in-Oakland-3247327.php",
+        "ID": "9597",
+        "Census Block Code": "3000",
+        "Description": "Mark Aragon, a 32 year old Hispanic/Latino Male was killed by police on 11/04/2010. Connectis Guilton was reportedly fleeing from the CHP when his BMW collided with a SUV driven by Mark Aragon, killing both drivers.",
+        "year": "2010",
+        "age": 32,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.152496,
+          37.742922
+        ],
+        "type": "Point"
+      },
+      "id": "bfdad04ab36dc7ba8759454925489223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Female",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.8",
+        "city": "Oakland",
+        "name": "Monica Lucky",
+        "date": "11-Feb-07",
+        "desc": "Monica Lucky was killed when her Honda was struck by a Lincoln Continental driven by Kevin Jackson, 21, who was fleeing police.",
+        "race": "African-American/Black",
+        "Census Block Group": "5",
+        "Census Tract Code": "401000",
+        "address": "West MacArthur Boulevard and Martin Luther King Jr. Way",
+        "link": "http://www.berkeleydailyplanet.com/issue/2007-02-16/article/26351?headline=West-Oakland-Fatal-Crash-Raises-Questions--By-J.-Douglas-Allen-Taylor",
+        "ID": "5894",
+        "Census Block Code": "5000",
+        "Description": "Monica Lucky, a 41 year old African-American/Black Female was killed by police on 02/11/2007. Monica Lucky was killed when her Honda was struck by a Lincoln Continental driven by Kevin Jackson, 21, who was fleeing police.",
+        "year": "2007",
+        "age": 41,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.269047,
+          37.827231
+        ],
+        "type": "Point"
+      },
+      "id": "c0c3d8b5642ce96e079efd229764bed8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.33",
+        "city": "Oakland",
+        "name": "Gregory Charles",
+        "date": "9-Nov-03",
+        "desc": "Gregory Charles and Jody Perry were killed, and Charles' 7-year-old son was seriously injured, when a suspected drunken driver who was fleeing from police ran a red light and crashed into their car.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "406300",
+        "address": "42nd Avenue and International Boulevard",
+        "link": "http://www.sfgate.com/bayarea/article/Red-light-runner-smashes-into-car-kills-couple-2512467.php",
+        "ID": "2922",
+        "Census Block Code": "1010",
+        "Description": "Gregory Charles, a 50 year old African-American/Black Male was killed by police on 11/09/2003. Gregory Charles and Jody Perry were killed, and Charles' 7-year-old son was seriously injured, when a suspected drunken driver who was fleeing from police ran a red light and crashed into their car.",
+        "year": "2003",
+        "age": 50,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.223779,
+          37.786027
+        ],
+        "type": "Point"
+      },
+      "id": "c67e0342ac9734d11368357bcfe2e5fe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Female",
+        "img": "",
+        "agency": "San Leandro Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Guadalupe Manzo Ochoa",
+        "date": "7-Dec-14",
+        "desc": "Shot dead by San Leandro police after she allegedly rammed several police cars at the end of a chase.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "1",
+        "Census Tract Code": "410200",
+        "address": "Springfield Street",
+        "link": "http://www.sfgate.com/crime/article/Woman-shot-dead-by-San-Leandro-police-IDd-5964308.php",
+        "ID": "15462",
+        "Census Block Code": "1002",
+        "Description": "Guadalupe Manzo Ochoa, a 27 year old Hispanic/Latino Female was killed by police on 12/07/2014. Shot dead by San Leandro police after she allegedly rammed several police cars at the end of a chase.",
+        "year": "2014",
+        "age": 27,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.160882,
+          37.749151
+        ],
+        "type": "Point"
+      },
+      "id": "c71ce7c1757fa54a21c6869a4ae29899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.9",
+        "city": "Oakland",
+        "name": "Floyd Ross Jr.",
+        "date": "16-May-09",
+        "desc": "Motorist Anthony Perea and pedestrian Floyd Ross Jr. were killed when homicide suspects being chased by police crashed into Perea's car, which then struck Ross.",
+        "race": "Race unspecified",
+        "Census Block Group": "3",
+        "Census Tract Code": "400700",
+        "address": "5600 Martin Luther King Jr. Way",
+        "link": "http://www.berkeleydailyplanet.com/issue/2009-05-14/article/32907?headline=-Bloody-Saturday-Night-Leaves-Three-Dead---By-Bay-City-News-Service-",
+        "ID": "8100",
+        "Census Block Code": "3013",
+        "Description": "Floyd Ross Jr., a 41 year old Race unspecified Male was killed by police on 05/16/2009. Motorist Anthony Perea and pedestrian Floyd Ross Jr. were killed when homicide suspects being chased by police crashed into Perea's car, which then struck Ross.",
+        "year": "2009",
+        "age": 41,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.270029,
+          37.840505
+        ],
+        "type": "Point"
+      },
+      "id": "c854effdbc02da81ff5cef0a3429a904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://media2.fdncms.com/sfweekly/imager/diallo-gained-a-reputation-as-a-family-man/u/zoom/2188320/8651545.t.jpg",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.8",
+        "city": "Oakland",
+        "name": "Diallo S. Neal Sr.",
+        "date": "10-Oct-05",
+        "desc": "According to a quickly completed police investigation, Diallo S. Neal Sr. was killed when he lost control of his motorcycle and crashed into a bus bench, though numerous witnesses said they saw a CHP motorcycle officer chasing and possibly running him off the road just before the crash.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "406601",
+        "address": "MacArthur Blvd. and Coolidge Ave.",
+        "link": "http://www.sfweekly.com/sanfrancisco/blind-spot-a-motorcycle-death-raises-unanswerable-questions/Content?oid=2188316",
+        "ID": "4594",
+        "Census Block Code": "3000",
+        "Description": "Diallo S. Neal Sr., a 33 year old African-American/Black Male was killed by police on 10/10/2005. According to a quickly completed police investigation, Diallo S. Neal Sr. was killed when he lost control of his motorcycle and crashed into a bus bench, though numerous witnesses said they saw a CHP motorcycle officer chasing and possibly running him off the road just before the crash.",
+        "year": "2005",
+        "age": 33,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.208794,
+          37.798477
+        ],
+        "type": "Point"
+      },
+      "id": "ca91a16a76da6a6824c8eb0991e20226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/400/img/photos/2012/07/21/07/ce/JohnSloan.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "John Sloan",
+        "date": "18-May-11",
+        "desc": "John Sloan was shot and killed after he, Davon Jackson and a third man were stopped by Oakland police. Police said the men were armed and confrontational. Moments later, police shot Davon Jackson in the side while he sat in the driver's seat and John Sloan in the back of the head while he ran away.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "406601",
+        "address": "3000 Curran Avenue",
+        "link": "http://abclocal.go.com/kgo/story?section=news/local/east_bay&id=8158679",
+        "ID": "10192",
+        "Census Block Code": "2002",
+        "Description": "John Sloan, a 23 year old African-American/Black Male was killed by police on 05/18/2011. John Sloan was shot and killed after he, Davon Jackson and a third man were stopped by Oakland police. Police said the men were armed and confrontational. Moments later, police shot Davon Jackson in the side while he sat in the driver's seat and John Sloan in the back of the head while he ran away.",
+        "year": "2011",
+        "age": 23,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.211391,
+          37.791883
+        ],
+        "type": "Point"
+      },
+      "id": "cbfb0835b0601fa2e76fb1b22b9fa0c5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://i.ytimg.com/vi/hXyqH-g2z7A/maxresdefault.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Bernard Peters Jr.",
+        "date": "29-May-13",
+        "desc": "Police received information that someone in a vehicle was armed with a gun. When they tried to pull the vehicle over, the driver sped away. After pursuit, the vehicle stopped and the three men inside fled in different directions. Peters was shot and killed. A handgun stolen from Georgia was discovered nearby.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "408500",
+        "address": "2400 Ritchie Street",
+        "link": "http://www.mercurynews.com/ci_23414977/oakland-police-identify-man-fatally-shot-by-officer",
+        "ID": "12857",
+        "Census Block Code": "2003",
+        "Description": "Bernard Peters Jr., a 22 year old African-American/Black Male was killed by police on 05/29/2013. Police received information that someone in a vehicle was armed with a gun. When they tried to pull the vehicle over, the driver sped away. After pursuit, the vehicle stopped and the three men inside fled in different directions. Peters was shot and killed. A handgun stolen from Georgia was discovered nearby.",
+        "year": "2013",
+        "age": 22,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.173849,
+          37.761344
+        ],
+        "type": "Point"
+      },
+      "id": "d086e6687240151112bf4eaadf72d321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.97",
+        "city": "Oakland",
+        "name": "Martin Perez",
+        "date": "17-Aug-12",
+        "desc": "Martin Perez was killed after he crashed his car near the Port of Oakland while fleeing the CHP.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "3",
+        "Census Tract Code": "401700",
+        "address": "Seventh St. and Maritime St.",
+        "link": "http://sanfrancisco.cbslocal.com/2012/08/17/1-killed-1-hurt-in-oakland-chp-chase-crash/",
+        "ID": "11712",
+        "Census Block Code": "3072",
+        "Description": "Martin Perez, a 22 year old Hispanic/Latino Male was killed by police on 08/17/2012. Martin Perez was killed after he crashed his car near the Port of Oakland while fleeing the CHP.",
+        "year": "2012",
+        "age": 22,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.31208,
+          37.808658
+        ],
+        "type": "Point"
+      },
+      "id": "d89a0d5904e1fb07ce033d43556c689e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://ww3.hdnux.com/photos/12/11/03/2658534/8/628x471.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Kim Saelio",
+        "date": "21-Jun-06",
+        "desc": "Saelio was shot as he fled to evade arrest on a murder warrant. During the flight, his vehicle struck an Oakland Police Car. Two officers fired, but hit Saelio.",
+        "race": "Asian/Pacific Islander",
+        "Census Block Group": "1",
+        "Census Tract Code": "405700",
+        "address": "1355 E. 32nd St.",
+        "link": "http://www.sfgate.com/bayarea/article/OAKLAND-Most-Wanted-fugitive-shot-dead-in-2494235.php",
+        "ID": "5244",
+        "Census Block Code": "1010",
+        "Description": "Kim Saelio, a 22 year old Asian/Pacific Islander Male was killed by police on 06/21/2006. Saelio was shot as he fled to evade arrest on a murder warrant. During the flight, his vehicle struck an Oakland Police Car. Two officers fired, but hit Saelio.",
+        "year": "2006",
+        "age": 22,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.232665,
+          37.800082
+        ],
+        "type": "Point"
+      },
+      "id": "d92b34aa9cfa9b3a31d02e57bd1781f2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Kenneth Ross",
+        "date": "3-Dec-09",
+        "desc": "Ross was killed when he pulled his gun on police as they tried to question him in the stairwell of an apartment complex.",
+        "race": "African-American/Black",
+        "Census Block Group": "6",
+        "Census Tract Code": "408700",
+        "address": "2701 64th Ave.",
+        "link": "http://www.sfgate.com/bayarea/article/Oakland-police-kill-one-suspect-wound-another-3208361.php",
+        "ID": "8656",
+        "Census Block Code": "6015",
+        "Description": "Kenneth Ross, a 18 year old African-American/Black Male was killed by police on 12/03/2009. Ross was killed when he pulled his gun on police as they tried to question him in the stairwell of an apartment complex.",
+        "year": "2009",
+        "age": 18,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.185286,
+          37.770431
+        ],
+        "type": "Point"
+      },
+      "id": "dd5285e28430c5384f618f913c643303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://www.38thnotes.com/wp-content/uploads/2012/05/photo-1.jpeg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Alan Blueford",
+        "date": "6-May-12",
+        "desc": "An Oakland police officer had chased Alan Blueford, 18, for three blocks through a darkened neighborhood before he tripped and fell along a home's chain-link fence. The officer shot Blueford three times in the chest, killing him. He said he believed Blueford had a gun, and one was recovered near the body.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "409600",
+        "address": "9200 Birch Street",
+        "link": "https://oaklandnorth.net/2012/10/09/district-attorneys-report-officer-justified-in-alan-blueford-shooting/",
+        "ID": "11310",
+        "Census Block Code": "3001",
+        "Description": "Alan Blueford, a 18 year old African-American/Black Male was killed by police on 05/06/2012. An Oakland police officer had chased Alan Blueford, 18, for three blocks through a darkened neighborhood before he tripped and fell along a home's chain-link fence. The officer shot Blueford three times in the chest, killing him. He said he believed Blueford had a gun, and one was recovered near the body.",
+        "year": "2012",
+        "age": 18,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.168291,
+          37.751409
+        ],
+        "type": "Point"
+      },
+      "id": "dfb2dc3d1cf8447ccb5ef413f6bca1f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://oaklandnorth.net/wp-content/uploads/2010/11/Derek-Jones-620x465.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Derrick Jones",
+        "date": "8-Nov-10",
+        "desc": "Police said Jones was shot after fleeing from officers questioning him regarding a domestic dispute. The interrogation took place inside the Kwik Cuts Barbershop, which Jones owned.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "407500",
+        "address": "5800 Trask Street",
+        "link": "http://oaklandnorth.net/2010/11/09/east-oakland-barbershop-owner-shot-to-death-by-opd-officers/",
+        "ID": "9616",
+        "Census Block Code": "1009",
+        "Description": "Derrick Jones, a 37 year old African-American/Black Male was killed by police on 11/08/2010. Police said Jones was shot after fleeing from officers questioning him regarding a domestic dispute. The interrogation took place inside the Kwik Cuts Barbershop, which Jones owned.",
+        "year": "2010",
+        "age": 37,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.193428,
+          37.770694
+        ],
+        "type": "Point"
+      },
+      "id": "e212a392da28ec7e1a21a9e5034c3150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "California Highway Patrol",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jose Munguia",
+        "date": "21-Jan-14",
+        "desc": "Officers pulled over Munguia's SUV for not having license plates, leading the 21-year-old to flee with a loaded handgun. Officers with a police dog were able to catch up to Munguia, and shot him after he pointed his gun at them.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "4",
+        "Census Tract Code": "408600",
+        "address": "1500 67th Ave",
+        "link": "http://www.sfgate.com/crime/article/Man-shot-dead-by-CHP-in-Oakland-identified-5180347.php",
+        "ID": "13977",
+        "Census Block Code": "4005",
+        "Description": "Jose Munguia, a 21 year old Hispanic/Latino Male was killed by police on 01/21/2014. Officers pulled over Munguia's SUV for not having license plates, leading the 21-year-old to flee with a loaded handgun. Officers with a police dog were able to catch up to Munguia, and shot him after he pointed his gun at them.",
+        "year": "2014",
+        "age": 21,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.190746,
+          37.762161
+        ],
+        "type": "Point"
+      },
+      "id": "e4377396f25b35b33f2d866fe37d566d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Bien Cam Tran",
+        "date": "30-Aug-14",
+        "desc": "Pedestrian Bien Cam Tran was struck by a black-and-white Ford Crown Victoria driven by officer Devin Underwood while Tran was in a crosswalk at about 1:30 p.m. near Lake Merritt.",
+        "race": "Asian/Pacific Islander",
+        "Census Block Group": "3",
+        "Census Tract Code": "406000",
+        "address": "East 12th Street at Third Avenue",
+        "link": "http://www.sfgate.com/bayarea/article/Oakland-police-sued-by-family-of-man-hit-by-6050029.php",
+        "ID": "15026",
+        "Census Block Code": "3007",
+        "Description": "Bien Cam Tran, a 58 year old Asian/Pacific Islander Male was killed by police on 08/30/2014. Pedestrian Bien Cam Tran was struck by a black-and-white Ford Crown Victoria driven by officer Devin Underwood while Tran was in a crosswalk at about 1:30 p.m. near Lake Merritt.",
+        "year": "2014",
+        "age": 58,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.256458,
+          37.796565
+        ],
+        "type": "Point"
+      },
+      "id": "e6b645a328e45bc3578c767c6f5fcfe1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Alameda County Sheriff's Office",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Broderick Huggins",
+        "date": "30-Mar-13",
+        "desc": "Huggins, from Modesto, was fatally shot by an Alameda County sheriff's deputy after he refused to get out of the vehicle and drove off, dragging one of those deputies, who had been trying to undo Huggins' seat belt.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "406100",
+        "address": "33rd Avenue and San Leandro Street",
+        "link": "http://www.mercurynews.com/homicides/ci_23309805/man-slain-by-sheriffs-deputies-march-following-east",
+        "ID": "12571",
+        "Census Block Code": "2001",
+        "Description": "Broderick Huggins, a 32 year old African-American/Black Male was killed by police on 03/30/2013. Huggins, from Modesto, was fatally shot by an Alameda County sheriff's deputy after he refused to get out of the vehicle and drove off, dragging one of those deputies, who had been trying to undo Huggins' seat belt.",
+        "year": "2013",
+        "age": 32,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.226149,
+          37.774884
+        ],
+        "type": "Point"
+      },
+      "id": "e70f7eea75236f51aa10cc058389b3c0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Female",
+        "img": "",
+        "agency": "Oakland Police Department, California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Cleora Chrisman",
+        "date": "7-Apr-06",
+        "desc": "Cleora Chrisman was killed when Sarah McNeil, a driver fleeing police, ran a red light and crashed into Chrisman's car in West Oakland. McNeil was also killed.",
+        "race": "African-American/Black",
+        "Census Block Group": "2",
+        "Census Tract Code": "401100",
+        "address": "40th St. and West St.",
+        "link": "http://www.sfgate.com/bayarea/article/OAKLAND-Police-ID-woman-killed-by-driver-of-2520423.php",
+        "ID": "5024",
+        "Census Block Code": "2012",
+        "Description": "Cleora Chrisman, a 67 year old African-American/Black Female was killed by police on 04/07/2006. Cleora Chrisman was killed when Sarah McNeil, a driver fleeing police, ran a red light and crashed into Chrisman's car in West Oakland. McNeil was also killed.",
+        "year": "2006",
+        "age": 67,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.26441,
+          37.829053
+        ],
+        "type": "Point"
+      },
+      "id": "e7c930b248d8ec8936932d31df4c1697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Female",
+        "img": "",
+        "agency": "San Leandro Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.77",
+        "city": "Oakland",
+        "name": "Priscilla Johnson",
+        "date": "23-May-14",
+        "desc": "An unnamed woman was killed when she was ejected from a car fleeing from police. At about 8:50 p.m., a man had reportedly tried to buy an item at a San Leandro Radio Shack with counterfeit money. When a clerk confronted him, the man allegedly threatened to harm the clerk and fled the store with the item. The clerk called police. An officer saw the car leaving the scene and a high-speed chase began. The driver turned north onto San Leandro Boulevard and police said the officer lost sight of the car and stopped chasing it. Soon afterward, police reportedly found the car had crashed into a building on San Leandro Boulevard at Apricot Street. The woman died at the scene.",
+        "race": "African-American/Black",
+        "Census Block Group": "4",
+        "Census Tract Code": "409300",
+        "address": "San Leandro Boulevard and Apricot Street",
+        "link": "http://www.cw6sandiego.com/1-dead-after-high-speed-chase-in-san-leandro/",
+        "ID": "14535",
+        "Census Block Code": "4007",
+        "Description": "Priscilla Johnson, a 45 year old African-American/Black Female was killed by police on 05/23/2014. An unnamed woman was killed when she was ejected from a car fleeing from police. At about 8:50 p.m., a man had reportedly tried to buy an item at a San Leandro Radio Shack with counterfeit money. When a clerk confronted him, the man allegedly threatened to harm the clerk and fled the store with the item. The clerk called police. An officer saw the car leaving the scene and a high-speed chase began. The driver turned north onto San Leandro Boulevard and police said the officer lost sight of the car and stopped chasing it. Soon afterward, police reportedly found the car had crashed into a building on San Leandro Boulevard at Apricot Street. The woman died at the scene.",
+        "year": "2014",
+        "age": 45,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.170103,
+          37.732065
+        ],
+        "type": "Point"
+      },
+      "id": "e8184ddf4e0defe2c107a37b120d410c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Joshua Russell",
+        "date": "27-Mar-02",
+        "desc": "A police sergeant Gonzales shot and killed Joshua Russell, 19 after Russell and an accomplice allegedly tried to rob a man at gunpoint in the parking lot of a Burger King.",
+        "race": "European-American/White",
+        "Census Block Group": "1",
+        "Census Tract Code": "406000",
+        "address": "14th Avenue and East 12th Street",
+        "link": "http://www.sfgate.com/bayarea/article/Family-disputes-Oakland-police-version-of-fatal-2501304.php",
+        "ID": "1575",
+        "Census Block Code": "1025",
+        "Description": "Joshua Russell, a 19 year old European-American/White Male was killed by police on 03/27/2002. A police sergeant Gonzales shot and killed Joshua Russell, 19 after Russell and an accomplice allegedly tried to rob a man at gunpoint in the parking lot of a Burger King.",
+        "year": "2002",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.246805,
+          37.788542
+        ],
+        "type": "Point"
+      },
+      "id": "e970f3106c0babc486f496bdd34a157c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Addiel Meza",
+        "date": "3-Feb-07",
+        "desc": "Addiel had been firing a gun on an East Oakland street. He was shot dead by a police officer who responded.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "5",
+        "Census Tract Code": "408700",
+        "address": "2400 62nd Avenue",
+        "link": "http://www.insidebayarea.com/ci_5156348",
+        "ID": "5877",
+        "Census Block Code": "5007",
+        "Description": "Addiel Meza, a 21 year old Hispanic/Latino Male was killed by police on 02/03/2007. Addiel had been firing a gun on an East Oakland street. He was shot dead by a police officer who responded.",
+        "year": "2007",
+        "age": 21,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.190265,
+          37.768413
+        ],
+        "type": "Point"
+      },
+      "id": "ea8ae2fa19f588ad37dc7467fc7879b1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Clinton Grandy",
+        "date": "27-Aug-03",
+        "desc": "Clinton Grandy was killed when his Ford Escort was struck by an allegedly stolen Buick being chased by police.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "402400",
+        "address": "West Grand Avenue and Adeline Street",
+        "link": "http://www.sfgate.com/bayarea/article/Innocent-driver-dies-in-police-chase-Suspect-2593472.php",
+        "ID": "2751",
+        "Census Block Code": "1004",
+        "Description": "Clinton Grandy, a 62 year old African-American/Black Male was killed by police on 08/27/2003. Clinton Grandy was killed when his Ford Escort was struck by an allegedly stolen Buick being chased by police.",
+        "year": "2003",
+        "age": 62,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.284024,
+          37.815621
+        ],
+        "type": "Point"
+      },
+      "id": "ebf467a420cb840bc45163f3037b1bbc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "https://abcschoolportraits.smugmug.com/ABC-SCHOOLS/Oakland-Tech-High-School/2007-2008/Oakland-Tech-Junior-Prom-2008/i-Wbh2jxv/0/Ti/Guiton%20Jr-Connectis-00202-Ti.jpg",
+        "agency": "California Highway Patrol",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Connectis Guiton",
+        "date": "4-Nov-10",
+        "desc": "Connectis Guilton was reportedly fleeing from the CHP when his BMW collided with a SUV driven by Mark Aragon, killing both drivers.",
+        "race": "African-American/Black",
+        "Census Block Group": "3",
+        "Census Tract Code": "410200",
+        "address": "106th Avenue and MacArthur Boulevard",
+        "link": "http://www.sfgate.com/crime/article/High-speed-chase-ends-in-2-deaths-in-Oakland-3247327.php",
+        "ID": "9596",
+        "Census Block Code": "3000",
+        "Description": "Connectis Guiton, a 19 year old African-American/Black Male was killed by police on 11/04/2010. Connectis Guilton was reportedly fleeing from the CHP when his BMW collided with a SUV driven by Mark Aragon, killing both drivers.",
+        "year": "2010",
+        "age": 19,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.152496,
+          37.742922
+        ],
+        "type": "Point"
+      },
+      "id": "ee97267613b83229ed3f4aeaa5da004a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Contra Costa County Sheriff’s Office",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Alameda",
+        "name": "Marquez Warren",
+        "date": "1-Feb-17",
+        "desc": "An off-duty Contra Costa County sheriff's deputy shot and killed a home invasion robbery suspect. Officers responded to a call of a home invasion at around 10:44 a.m., police said. It was not disclosed why an off-duty deputy was on the scene.",
+        "race": "Race unspecified",
+        "Census Block Group": "2",
+        "Census Tract Code": "427200",
+        "address": "2000 Buena Vista Avenue",
+        "link": "http://kron4.com/2017/02/01/shelter-in-place-in-alameda-due-to-police-activity/",
+        "ID": "18800",
+        "Census Block Code": "2009",
+        "Description": "Marquez Warren, a 19 year old Race unspecified Male was killed by police on 02/01/2017. An off-duty Contra Costa County sheriff's deputy shot and killed a home invasion robbery suspect. Officers responded to a call of a home invasion at around 10:44 a.m., police said. It was not disclosed why an off-duty deputy was on the scene.",
+        "year": "2017",
+        "age": 19,
+        "Place FIPS": "600562"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.249942,
+          37.772452
+        ],
+        "type": "Point"
+      },
+      "id": "f398c1f1352422eee7b36332496c7da3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Male",
+        "img": "http://www.kristieslaw.org/images/jr.gif",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "0.95",
+        "city": "Oakland",
+        "name": "Salvador Nieves Jr.",
+        "date": "27-May-06",
+        "desc": "Jessica Castaneda-Rodriguez and Salvador Nieves Jr. were killed when a driver being chased by police ran a red light and crashed into their 2005 Nissan Sentra.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "2",
+        "Census Tract Code": "409800",
+        "address": "90th Ave. and MacArthur Boulevard",
+        "link": "http://www.berkeleydailyplanet.com/issue/2006-06-02/article/24309?headline=Column-Undercurrents-Two-More-Innocent-Bystanders-Die-in-High-Speed-Chase&status=301",
+        "ID": "5161",
+        "Census Block Code": "2013",
+        "Description": "Salvador Nieves Jr., a 21 year old Hispanic/Latino Male was killed by police on 05/27/2006. Jessica Castaneda-Rodriguez and Salvador Nieves Jr. were killed when a driver being chased by police ran a red light and crashed into their 2005 Nissan Sentra.",
+        "year": "2006",
+        "age": 21,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.160766,
+          37.75578
+        ],
+        "type": "Point"
+      },
+      "id": "f640ed2d2ffbd4b1ba3f5808b7b9cca6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Matthew Cicelski",
+        "date": "29-Jan-11",
+        "desc": "Cicelski, clad in camouflage clothing, had been acting erratically outside ex-girlfriend's home. He pointed a replica assault rifle at them.",
+        "race": "Race unspecified",
+        "Census Block Group": "1",
+        "Census Tract Code": "400300",
+        "address": "5552 Taft Ave.",
+        "link": "http://oaklandnorth.net/2011/01/30/opd-issues-update-on-rockridge-officer-involved-shooting/",
+        "ID": "9831",
+        "Census Block Code": "1010",
+        "Description": "Matthew Cicelski, a 30 year old Race unspecified Male was killed by police on 01/29/2011. Cicelski, clad in camouflage clothing, had been acting erratically outside ex-girlfriend's home. He pointed a replica assault rifle at them.",
+        "year": "2011",
+        "age": 30,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.249492,
+          37.842814
+        ],
+        "type": "Point"
+      },
+      "id": "f7ccdbb552de5228b90c3b7832e21951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "gender": "Male",
+        "img": "",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Jason Perez",
+        "date": "30-Jan-06",
+        "desc": "Jason Perez was killed when he crashed into the rear of another car while being chased by police.",
+        "race": "Hispanic/Latino",
+        "Census Block Group": "2",
+        "Census Tract Code": "409000",
+        "address": "Hegenberger Road",
+        "link": "https://www.highbeam.com/doc/1P2-7033859.html",
+        "ID": "4872",
+        "Census Block Code": "2050",
+        "Description": "Jason Perez, a 20 year old Hispanic/Latino Male was killed by police on 01/30/2006. Jason Perez was killed when he crashed into the rear of another car while being chased by police.",
+        "year": "2006",
+        "age": 20,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.198035,
+          37.734377
+        ],
+        "type": "Point"
+      },
+      "id": "fa1b040b7208cd17c848b77355d1f9bf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "gender": "Male",
+        "img": "http://www.sfbayview.com/wp-content/uploads/2009/03/lovelle-mixon-by-ap1.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Gunshot",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "Lovelle Mixon",
+        "date": "21-Mar-09",
+        "desc": "Lovelle Mixon shot and killed two Oakland police officers during a traffic stop, then killed two more when SWAT team officers attempted to apprehend him two hours later. Mixon was killed in a barrage of gunfire as the officers returned fire.",
+        "race": "African-American/Black",
+        "Census Block Group": "1",
+        "Census Tract Code": "408400",
+        "address": "2700 74th Avenue",
+        "link": "http://www.sfgate.com/news/article/Fourth-Oakland-officer-involved-in-Saturday-s-3167588.php",
+        "ID": "7964",
+        "Census Block Code": "1007",
+        "Description": "Lovelle Mixon, a 26 year old African-American/Black Male was killed by police on 03/21/2009. Lovelle Mixon shot and killed two Oakland police officers during a traffic stop, then killed two more when SWAT team officers attempted to apprehend him two hours later. Mixon was killed in a barrage of gunfire as the officers returned fire.",
+        "year": "2009",
+        "age": 26,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.172801,
+          37.767538
+        ],
+        "type": "Point"
+      },
+      "id": "fcd5a12edccc3f8d169ca11fa17e0ba8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "intersection",
+        "gender": "Female",
+        "img": "http://ohsmemorial.com/OHS/imag/1997/JohnsonU.jpg",
+        "agency": "Oakland Police Department",
+        "cause": "Vehicle",
+        "Accuracy Score": "1",
+        "city": "Oakland",
+        "name": "U’Kendra Johnson",
+        "date": "16-Feb-02",
+        "desc": "U'Kendra Johnson was killed when her car was broadsided by a Buick fleeing from police.",
+        "race": "African-American/Black",
+        "Census Block Group": "5",
+        "Census Tract Code": "408700",
+        "address": "Seminary Avenue and Avenal Avenue",
+        "link": "http://www.berkeleydailyplanet.com/issue/2002-02-18/article/10241?headline=Illegal-car-show-turns-deadly-in-Oakland--The-Associated-Press",
+        "ID": "1493",
+        "Census Block Code": "5000",
+        "Description": "U’Kendra Johnson, a 22 year old African-American/Black Female was killed by police on 02/16/2002. U'Kendra Johnson was killed when her car was broadsided by a Buick fleeing from police.",
+        "year": "2002",
+        "age": 22,
+        "Place FIPS": "653000"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.192194,
+          37.770291
+        ],
+        "type": "Point"
+      },
+      "id": "fd8514ad89d0f14d3787b11be945cd22"
+    }
+  ],
+  "type": "FeatureCollection"
+}
