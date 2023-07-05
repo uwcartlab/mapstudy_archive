@@ -3,5 +3,5 @@ This Github page serves as the official archive of research projects completed u
 * [Mapstudy 1](https://cartlab.geography.wisc.edu/MapStudy/mapstudy1/)
 * [Hazmat Mapping](https://grad.geography.wisc.edu/kv-survey/)
 * [The Role of Interactive Maps in Popular Media](http://grad.geography.wisc.edu/mediamaps/)
-* [Storymapping](storymap/index.html)
+* [Storymapping](https://uwcartlab.github.io/mapstudy_archive/storymap/index.html)
 
