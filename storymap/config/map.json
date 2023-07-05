@@ -1,0 +1,1440 @@
+{
+	"pages": [
+		{},
+		{
+			"page": 2,
+			"library": "Leaflet",
+			"story":true,
+			"mapTitle":"Damages from Hurricane Harvey in Coastal Texas",
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Hurricane Damages",
+						"Population Density",
+						"Predicted Population Growth"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [28.061,-96.705],
+				"zoom": 7,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [
+			{
+				"name": "Counties",
+				"source": "data/texasCountyData.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+			{
+				"name": "Population Density",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "Population",
+				"expressedAttributeDisplay": "Density (Ppl./Sq. Mi.)",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":"Blues.5",
+					"values": [20,60,200,700,2600]
+				}]
+			},
+			{
+				"name": "Predicted Population Growth",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "2040Change",
+				"expressedAttributeDisplay": "Predicted Annual Pop. Growth %",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":["#F4A582","#BDD7E7","#6BAED6","#3182BD","#08519C"],
+					"values": [0,0.6,1.2,2.1,2.7]
+				}]
+			},
+			{
+				"name": "Hurricane Damages",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "LossPaid",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			},
+			{
+				"name": "State Labels",
+				"source": "data/us-states-points.geojson",
+				"renderOnLoad": false,
+				"displayAttributes":["name"],
+				"displayAttributesDisplay":["County"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "label",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			}]
+		},
+		{
+			"page": 3,
+			"library": "Leaflet",
+			"story":true,
+			"mapTitle":"Damages from Hurricane Harvey in Coastal Texas",
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Hurricane Damages",
+						"Population Density",
+						"Predicted Population Growth"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [28.061,-96.705],
+				"zoom": 7,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [
+			{
+				"name": "Counties",
+				"source": "data/texasCountyData.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+			{
+				"name": "Population Density",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "Population",
+				"expressedAttributeDisplay": "Density (Ppl./Sq. Mi.)",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":"Blues.5",
+					"values": [20,60,200,700,2600]
+				}]
+			},
+			{
+				"name": "Predicted Population Growth",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "2040Change",
+				"expressedAttributeDisplay": "Predicted Annual Pop. Growth %",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":["#F4A582","#BDD7E7","#6BAED6","#3182BD","#08519C"],
+					"values": [0,0.6,1.2,2.1,2.7]
+				}]
+			},
+			{
+				"name": "Hurricane Damages",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "LossPaid",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			},
+			{
+				"name": "State Labels",
+				"source": "data/us-states-points.geojson",
+				"renderOnLoad": false,
+				"displayAttributes":["name"],
+				"displayAttributesDisplay":["County"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "label",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			}]
+		},
+		{
+			"page": 4,
+			"library": "Leaflet",
+			"story":true,
+			"mapTitle":"Damages from Hurricane Harvey in Coastal Texas",
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Hurricane Damages",
+						"Population Density",
+						"Predicted Population Growth"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [28.061,-96.705],
+				"zoom": 7,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [
+			{
+				"name": "Counties",
+				"source": "data/texasCountyData.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+			{
+				"name": "Population Density",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "Population",
+				"expressedAttributeDisplay": "Density (Ppl./Sq. Mi.)",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":"Blues.5",
+					"values": [20,60,200,700,2600]
+				}]
+			},
+			{
+				"name": "Predicted Population Growth",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "2040Change",
+				"expressedAttributeDisplay": "Predicted Annual Pop. Growth %",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":["#F4A582","#BDD7E7","#6BAED6","#3182BD","#08519C"],
+					"values": [0,0.6,1.2,2.1,2.7]
+				}]
+			},
+			{
+				"name": "Hurricane Damages",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "LossPaid",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			},
+			{
+				"name": "State Labels",
+				"source": "data/us-states-points.geojson",
+				"renderOnLoad": false,
+				"displayAttributes":["name"],
+				"displayAttributesDisplay":["County"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "label",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			}]
+		},
+		{
+			"page": 5,
+			"library": "Leaflet",
+			"story":true,
+			"mapTitle":"Damages from Hurricane Harvey in Coastal Texas",
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Hurricane Damages",
+						"Population Density",
+						"Predicted Population Growth"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [28.061,-96.705],
+				"zoom": 7,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [
+			{
+				"name": "Counties",
+				"source": "data/texasCountyData.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+			{
+				"name": "Population Density",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "Population",
+				"expressedAttributeDisplay": "Density (Ppl./Sq. Mi.)",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":"Blues.5",
+					"values": [20,60,200,700,2600]
+				}]
+			},
+			{
+				"name": "Predicted Population Growth",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "2040Change",
+				"expressedAttributeDisplay": "Predicted Annual Pop. Growth %",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [
+					{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes":["#F4A582","#BDD7E7","#6BAED6","#3182BD","#08519C"],
+					"values": [0,0.6,1.2,2.1,2.7]
+				}]
+			},
+			{
+				"name": "Hurricane Damages",
+				"source": "data/texas-coast-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "LossPaid",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","Population","LossPaid","2040Change"],
+				"displayAttributesDisplay":["County","Density (Ppl./Sq. Mi.)","Damages in $","Predicted Annual Pop. Growth %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			},
+			{
+				"name": "State Labels",
+				"source": "data/us-states-points.geojson",
+				"renderOnLoad": false,
+				"displayAttributes":["name"],
+				"displayAttributesDisplay":["County"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "label",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			}]
+		},
+		{},
+		{
+			"page": 7,
+			"library": "Leaflet",
+			"mapTitle":"Damages from Wildfires in California, 2017",
+			"story":true,
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Wildland-Urban Interface",
+						"Wildfire Damages",
+						"Predicted Annual Land Loss"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [37.379,-120.806],
+				"zoom": 6,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [{
+				"name": "Counties",
+				"source": "data/ca-counties-total.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.2,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},{
+				"name": "Wildland-Urban Interface",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "WUI_House",
+				"expressedAttributeDisplay": "% Housing in WUI",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[20,40,60,80,100]
+				}]
+			},
+			{
+				"name": "Predicted Annual Land Loss",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "LandLoss",
+				"expressedAttributeDisplay": "Predicted Annual Land Loss %",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[0.5,0.7,1.2,2,4]
+				}]
+			},
+			{
+				"name": "Wildfire Damages",
+				"source": "data/ca-counties-points.geojson",
+				"renderOnLoad": true,
+				"expressedAttribute": "Cost_total",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			}]
+		},
+		{
+			"page": 8,
+			"library": "Leaflet",
+			"mapTitle":"Damages from Wildfires in California, 2017",
+			"story":true,
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Wildland-Urban Interface",
+						"Wildfire Damages",
+						"Predicted Annual Land Loss"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [37.379,-120.806],
+				"zoom": 6,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [{
+				"name": "Counties",
+				"source": "data/ca-counties-total.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.2,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},{
+				"name": "Wildland-Urban Interface",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "WUI_House",
+				"expressedAttributeDisplay": "% Housing in WUI",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[20,40,60,80,100]
+				}]
+			},
+			{
+				"name": "Predicted Annual Land Loss",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "LandLoss",
+				"expressedAttributeDisplay": "Predicted Annual Land Loss %",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[0.5,0.7,1.2,2,4]
+				}]
+			},
+			{
+				"name": "Wildfire Damages",
+				"source": "data/ca-counties-points.geojson",
+				"renderOnLoad": true,
+				"expressedAttribute": "Cost_total",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			}]
+		},
+		{
+			"page": 9,
+			"library": "Leaflet",
+			"mapTitle":"Damages from Wildfires in California, 2017",
+			"story":true,
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Wildland-Urban Interface",
+						"Wildfire Damages",
+						"Predicted Annual Land Loss"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [37.379,-120.806],
+				"zoom": 6,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [{
+				"name": "Counties",
+				"source": "data/ca-counties-total.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.2,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},{
+				"name": "Wildland-Urban Interface",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "WUI_House",
+				"expressedAttributeDisplay": "% Housing in WUI",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[20,40,60,80,100]
+				}]
+			},
+			{
+				"name": "Predicted Annual Land Loss",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "LandLoss",
+				"expressedAttributeDisplay": "Predicted Annual Land Loss %",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[0.5,0.7,1.2,2,4]
+				}]
+			},
+			{
+				"name": "Wildfire Damages",
+				"source": "data/ca-counties-points.geojson",
+				"renderOnLoad": true,
+				"expressedAttribute": "Cost_total",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			}]
+		},
+		{
+			"page": 10,
+			"library": "Leaflet",
+			"mapTitle":"Damages from Wildfires in California, 2017",
+			"story":true,
+			"interactions": {
+				"retrieve": {
+					"logging": true,
+					"interface": {
+						"window": false
+					}
+				},
+				"pan": {
+					"logging": true,
+					"interface": {
+						"widget": false
+					}
+				},
+				"zoom": {
+					"logging": true,
+					"interface": {
+						"scrollWheel": false
+					}
+				},
+				"overlay": {
+					"logging": true,
+					"toggle": false,
+					"dataLayers": [
+						"Wildland-Urban Interface",
+						"Wildfire Damages",
+						"Predicted Annual Land Loss"
+					]
+				}
+			},
+			"mapOptions": {
+				"resetButton": false,
+				"center": [37.379,-120.806],
+				"zoom": 6,
+				"minZoom": 5,
+				"maxZoom": 10
+			},
+			"baseLayers": [{
+				"name": "ESRI World Imagery",
+				"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+				"layerOptions": {
+					"opacity":0.4,
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			},
+			{
+				"name": "Labels",
+				"addOnRender":true,
+				"pointerEventSet":true,
+				"source": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png",
+				"layerOptions": {
+					"opacity":0.8,
+					"pane":"shadowPane",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+					}
+			}],
+			"dataLayers": [{
+				"name": "Counties",
+				"source": "data/ca-counties-total.json",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 0.2,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},
+				{
+				"name": "States",
+				"source": "data/us-states.geojson",
+				"renderOnLoad": true,
+				"layerOptions": {
+					"fillOpacity": 0,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "white"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "unclassed",
+					"classes": [5,30],
+					"showOnLegend":false
+				}]
+			},{
+				"name": "Wildland-Urban Interface",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": true,
+				"expressedAttribute": "WUI_House",
+				"expressedAttributeDisplay": "% Housing in WUI",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[20,40,60,80,100]
+				}]
+			},
+			{
+				"name": "Predicted Annual Land Loss",
+				"source": "data/ca-counties.json",
+				"renderOnLoad": false,
+				"expressedAttribute": "LandLoss",
+				"expressedAttributeDisplay": "Predicted Annual Land Loss %",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1
+				},
+				"layerHoverOptions": {
+					"fillOpacity": 1,
+					"color": "black"
+				},
+				"techniques": [{
+					"type": "choropleth",
+					"classification": "user defined",
+					"classes": "Oranges.5",
+					"values":[0.5,0.7,1.2,2,4]
+				}]
+			},
+			{
+				"name": "Wildfire Damages",
+				"source": "data/ca-counties-points.geojson",
+				"renderOnLoad": true,
+				"expressedAttribute": "Cost_total",
+				"expressedAttributeDisplay": "Damages in $",
+				"displayAttributes":["NAME","WUI_House","Cost_total","LandLoss"],
+				"displayAttributesDisplay":["County","% Housing in WUI","Total Damages in $, 2017","Predicted Annual Land Loss %"],
+				"layerOptions": {
+					"fillOpacity": 0.8,
+					"color": "white",
+					"weight": 1,
+					"opacity": 1,
+					"fillColor": "black"
+				},
+				"techniques": [{
+					"type": "proportional symbol",
+					"classification": "unclassed",
+					"classes": [5,30]
+				}]
+			}]
+		},
+		{},
+		{}
+	]
+}

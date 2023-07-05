@@ -1,0 +1,827 @@
+{
+	"pages": [
+		{
+			"page": 1,
+			"fullpage":true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Storymapping Mapstudy"
+						},
+						{
+							"ask": "Please go through the stories and answer the questions. It's simple!"
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 2,
+			"story":{
+				"title":"Under Water:",
+				"subtitle":"Hurricanes and Vulnerable Properties",
+				"background":"img/water.gif",
+				"color":"white",
+				"reverse":false,
+				"float":true
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Stronger hurricanes leave a cascade of flooding and costs in their wake",
+							"image": "img/texas/new/TX_Houston-01.jpg",
+							"description": "In August, 2017, Hurricane Harvey swept through East Texas, causing catastrophic effects in large cities like Houston. This was the most costly hurricane in U.S. history."
+						},
+						{
+							"title": "Why are hurricanes getting stronger?",
+							"subtitle": "Temperature plays a key role",
+							"image": "img/texas/new/TX_Temperature-01.jpg",
+							"description": "Higher ocean temperatures lead to higher wind speeds during hurricane events. Scientists believe that a 1 degree Fahrenheit rise in ocean temperature can increase wind speeds 15 to 20 miles per hour."
+						},
+						{
+							"title": "Who is most at risk to hurricanes?",
+							"subtitle":"Around 1/4 of people in Texas live on the coast",
+							"image": "img/texas/new/TX_Coastal_Density-01.jpg",
+							"description": "Coastal counties are hit hardest by hurricanes. Population matters, too. Counties with denser populations face even greater damages."
+						},
+						{
+							"title": "Stronger Hurricanes are exacerbating flood damage...",
+							"image": "img/texas/new/TX_MonthlyPrecipitation-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/texas/new/TX_Loss_Paid-01.jpg",
+							"description": "Major ports in both Harris and Nueces Counties endanger the cities of Houston and Corpus Christi to greater flooding from hurricanes. Houston's high population density makes the city even more susceptible."
+						},
+						{
+							"title": "A Deeper Look: Rainfall was the heaviest in the Houston Metropolitan area",
+							"image": "img/texas/new/TX_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Provided that: hurricane damages differ based on rainfall",
+							"image": "img/texas/TX_Money-01.jpg",
+							"description": "Torrential downpours in Harris County severely flooded most of Houston's buildings, leading to soaring flood damage costs. Rainfall in Nueces County only moderately flooded Corpus Christi, leading to less flood damage."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/texas/new/TX_Corpus-01.jpg",
+							"description": "Corpus Christi was spared from the full effects of Hurricane Harvey, which slowed after making landfall near Houston. The city, however, would have been devastated if the hurricane had hit directly."
+						},
+						{
+							"title": "What's Next? Harris and Nueces County Represent Different Alternatives for Addressing Hurricanes",
+							"image": "img/texas/TX_Legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/texas/new/TX_Growth_Rate-01.jpg",
+							"description": "Growing populations in both Harris and Nueces counties will have to contend with stronger hurricanes and the increased damage they bring. Will Houston's investments make a difference? Only time will tell."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 3,
+			"story":{
+				"title":"Under Water:",
+				"subtitle":"Hurricanes and Vulnerable Properties",
+				"background":"img/water.gif",
+				"color":"white",
+				"reverse":true,
+				"float":false
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Stronger hurricanes leave a cascade of flooding and costs in their wake",
+							"image": "img/texas/new/TX_Houston-01.jpg",
+							"description": "In August, 2017, Hurricane Harvey swept through East Texas, causing catastrophic effects in large cities like Houston. This was the most costly hurricane in U.S. history."
+						},
+						{
+							"title": "Why are hurricanes getting stronger?",
+							"subtitle": "Temperature plays a key role",
+							"image": "img/texas/new/TX_Temperature-01.jpg",
+							"description": "Higher ocean temperatures lead to higher wind speeds during hurricane events. Scientists believe that a 1 degree Fahrenheit rise in ocean temperature can increase wind speeds 15 to 20 miles per hour."
+						},
+						{
+							"title": "Who is most at risk to hurricanes?",
+							"subtitle":"Around 1/4 of people in Texas live on the coast",
+							"image": "img/texas/new/TX_Coastal_Density-01.jpg",
+							"description": "Coastal counties are hit hardest by hurricanes. Population matters, too. Counties with denser populations face even greater damages."
+						},
+						{
+							"title": "Stronger Hurricanes are exacerbating flood damage...",
+							"image": "img/texas/new/TX_MonthlyPrecipitation-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/texas/new/TX_Loss_Paid-01.jpg",
+							"description": "Major ports in both Harris and Nueces Counties endanger the cities of Houston and Corpus Christi to greater flooding from hurricanes. Houston's high population density makes the city even more susceptible."
+						},
+						{
+							"title": "A Deeper Look: Rainfall was the heaviest in the Houston Metropolitan area",
+							"image": "img/texas/new/TX_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Provided that: hurricane damages differ based on rainfall",
+							"image": "img/texas/TX_Money-01.jpg",
+							"description": "Torrential downpours in Harris County severely flooded most of Houston's buildings, leading to soaring flood damage costs. Rainfall in Nueces County only moderately flooded Corpus Christi, leading to less flood damage."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/texas/new/TX_Corpus-01.jpg",
+							"description": "Corpus Christi was spared from the full effects of Hurricane Harvey, which slowed after making landfall near Houston. The city, however, would have been devastated if the hurricane had hit directly."
+						},
+						{
+							"title": "What's Next? Harris and Nueces County Represent Different Alternatives for Addressing Hurricanes",
+							"image": "img/texas/TX_Legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/texas/new/TX_Growth_Rate-01.jpg",
+							"description": "Growing populations in both Harris and Nueces counties will have to contend with stronger hurricanes and the increased damage they bring. Will Houston's investments make a difference? Only time will tell."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 4,
+			"story":{
+				"title":"Under Water:",
+				"subtitle":"Hurricanes and Vulnerable Properties",
+				"background":"img/water.gif",
+				"color":"white",
+				"reverse":true,
+				"float":true
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Stronger hurricanes leave a cascade of flooding and costs in their wake",
+							"image": "img/texas/new/TX_Houston-01.jpg",
+							"description": "In August, 2017, Hurricane Harvey swept through East Texas, causing catastrophic effects in large cities like Houston. This was the most costly hurricane in U.S. history."
+						},
+						{
+							"title": "Why are hurricanes getting stronger?",
+							"subtitle": "Temperature plays a key role",
+							"image": "img/texas/new/TX_Temperature-01.jpg",
+							"description": "Higher ocean temperatures lead to higher wind speeds during hurricane events. Scientists believe that a 1 degree Fahrenheit rise in ocean temperature can increase wind speeds 15 to 20 miles per hour."
+						},
+						{
+							"title": "Who is most at risk to hurricanes?",
+							"subtitle":"Around 1/4 of people in Texas live on the coast",
+							"image": "img/texas/new/TX_Coastal_Density-01.jpg",
+							"description": "Coastal counties are hit hardest by hurricanes. Population matters, too. Counties with denser populations face even greater damages."
+						},
+						{
+							"title": "Stronger Hurricanes are exacerbating flood damage...",
+							"image": "img/texas/new/TX_MonthlyPrecipitation-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/texas/new/TX_Loss_Paid-01.jpg",
+							"description": "Major ports in both Harris and Nueces Counties endanger the cities of Houston and Corpus Christi to greater flooding from hurricanes. Houston's high population density makes the city even more susceptible."
+						},
+						{
+							"title": "A Deeper Look: Rainfall was the heaviest in the Houston Metropolitan area",
+							"image": "img/texas/new/TX_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Provided that: hurricane damages differ based on rainfall",
+							"image": "img/texas/TX_Money-01.jpg",
+							"description": "Torrential downpours in Harris County severely flooded most of Houston's buildings, leading to soaring flood damage costs. Rainfall in Nueces County only moderately flooded Corpus Christi, leading to less flood damage."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/texas/new/TX_Corpus-01.jpg",
+							"description": "Corpus Christi was spared from the full effects of Hurricane Harvey, which slowed after making landfall near Houston. The city, however, would have been devastated if the hurricane had hit directly."
+						},
+						{
+							"title": "What's Next? Harris and Nueces County Represent Different Alternatives for Addressing Hurricanes",
+							"image": "img/texas/TX_Legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/texas/new/TX_Growth_Rate-01.jpg",
+							"description": "Growing populations in both Harris and Nueces counties will have to contend with stronger hurricanes and the increased damage they bring. Will Houston's investments make a difference? Only time will tell."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 5,
+			"story":{
+				"title":"Under Water:",
+				"subtitle":"Hurricanes and Vulnerable Properties",
+				"background":"img/water.gif",
+				"color":"white",
+				"reverse":false,
+				"float":false
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Stronger hurricanes leave a cascade of flooding and costs in their wake",
+							"image": "img/texas/new/TX_Houston-01.jpg",
+							"description": "In August, 2017, Hurricane Harvey swept through East Texas, causing catastrophic effects in large cities like Houston. This was the most costly hurricane in U.S. history."
+						},
+						{
+							"title": "Why are hurricanes getting stronger?",
+							"subtitle": "Temperature plays a key role",
+							"image": "img/texas/new/TX_Temperature-01.jpg",
+							"description": "Higher ocean temperatures lead to higher wind speeds during hurricane events. Scientists believe that a 1 degree Fahrenheit rise in ocean temperature can increase wind speeds 15 to 20 miles per hour."
+						},
+						{
+							"title": "Who is most at risk to hurricanes?",
+							"subtitle":"Around 1/4 of people in Texas live on the coast",
+							"image": "img/texas/new/TX_Coastal_Density-01.jpg",
+							"description": "Coastal counties are hit hardest by hurricanes. Population matters, too. Counties with denser populations face even greater damages."
+						},
+						{
+							"title": "Stronger Hurricanes are exacerbating flood damage...",
+							"image": "img/texas/new/TX_MonthlyPrecipitation-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/texas/new/TX_Loss_Paid-01.jpg",
+							"description": "Major ports in both Harris and Nueces Counties endanger the cities of Houston and Corpus Christi to greater flooding from hurricanes. Houston's high population density makes the city even more susceptible."
+						},
+						{
+							"title": "A Deeper Look: Rainfall was the heaviest in the Houston Metropolitan area",
+							"image": "img/texas/new/TX_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Provided that: hurricane damages differ based on rainfall",
+							"image": "img/texas/TX_Money-01.jpg",
+							"description": "Torrential downpours in Harris County severely flooded most of Houston's buildings, leading to soaring flood damage costs. Rainfall in Nueces County only moderately flooded Corpus Christi, leading to less flood damage."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/texas/new/TX_Corpus-01.jpg",
+							"description": "Corpus Christi was spared from the full effects of Hurricane Harvey, which slowed after making landfall near Houston. The city, however, would have been devastated if the hurricane had hit directly."
+						},
+						{
+							"title": "What's Next? Harris and Nueces County Represent Different Alternatives for Addressing Hurricanes",
+							"image": "img/texas/TX_Legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/texas/new/TX_Growth_Rate-01.jpg",
+							"description": "Growing populations in both Harris and Nueces counties will have to contend with stronger hurricanes and the increased damage they bring. Will Houston's investments make a difference? Only time will tell."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 6,
+			"fullpage":true,
+			"sets": [
+				{
+					"set": 1,
+					"blocks": [
+						{
+							"title": "Comprehension"
+						},
+						{
+							"ask": "In your own words, please summarize the story.",
+							"input": {
+								"type": "text"
+							}
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				},
+				{
+					"set": 2,
+					"blocks": [
+						{
+							"title": "Reaction"
+						},
+						{
+							"title": "Likert Test",
+							"ask": "How did you find the visual story?",
+							"input": {
+								"type": "matrix",
+								"items": [
+									{
+										"text": "Activating"
+									},
+									{
+										"text": "Deactivating"
+									},
+									{
+										"text": "Pleasant"
+									},
+									{
+										"text": "Unpleasant"
+									}
+								],
+								"options": [
+									{
+										"text": "1"
+									},
+									{
+										"text": "2"
+									},
+									{
+										"text": "3"
+									},
+									{
+										"text": "4"
+									},
+									{
+										"text": "5"
+									},
+									{
+										"text": "6"
+									},
+									{
+										"text": "7"
+									}
+								]
+							}
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					],
+					"resetMap":true
+				},
+				{
+					"set": 3,
+					"blocks": [
+						{
+							"title": "Comprehension"
+						},
+						{
+							"ask": "What was rainfall in Houston in August?",
+							"input": {
+								"type": "radios",
+								"options": [
+									{
+										"text": "20 inches"
+									},
+									{
+										"text": "25 inches"
+									},
+									{
+										"text": "30 inches"
+									},
+									{
+										"text": "35 inches"
+									},
+									{
+										"text": "40 inches"
+									}
+								]
+							}
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					],
+					"resetMap":true
+				}]
+		},
+		{
+			"page": 7,
+			"story":{
+				"title":"Homes to Ashes",
+				"subtitle":"Wildfires and Vulnerable Properties",
+				"background":"img/fire.gif",
+				"color":"white",
+				"reverse":false,
+				"float":true
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Bigger wildfires are burning through communities and budgets",
+							"image": "img/ca/new/CA_Sonoma_Tubbs-01.jpg",
+							"description": "In October, 2017, the Tubbs Fire raged through Santa Rosa, California, causing catastrophic damage to the city and its infrastructure. When the smoke finally cleared, the wildfire had proven to be the most destructive in state history."
+						},
+						{
+							"title": "Why are wildfires are getting larger?",
+							"subtitle": "Drought plays a key role",
+							"image": "img/ca/new/CA_Drought-01.jpg"
+						},
+						{
+							"title": " Who is most at risk to wildfires?",
+							"subtitle":"Around 1/3 of California’s housing units are located in the wildland-urban interface (WUI).",
+							"image": "img/ca/new/CA_WUI-01.jpg",
+							"description": "Counties with large numbers of homes in the WUI are at a heightened risk of severe fires. Density matters, too. Larger concentrations of homes in the WUI lead to greater risk."
+
+						},
+						{
+							"title": "A longer fire season is exacerbating property damage…",
+							"image": "img/ca/new/CA_MonthlyStructures-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/ca/new/CA_Property_Loss-01.jpg"
+						},
+						{
+							"title": "A Deeper Look: Wildfires Were Most devastating in Santa Rosa City.",
+							"image": "img/ca/new/CA_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Wildfires have a different impact on costs depending on intensity and location.",
+							"image": "img/ca/CA_Money-01.jpg",
+							"description": "The fires in Sonoma County burned through dense areas of housing, driving damage costs up. Fires in Los Angeles County mostly burned in unoccupied areas, leading to lower costs."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/ca/new/CA_LA_Tubbs-01.jpg",
+							"description": "Densely populated Los Angeles would have been devastated by a wildfire event like the Tubbs fire. Increased drought and high risk suggest that a fire of such magnitude could certainly occur somewhere in Los Angeles County. In fact, it may be only a matter of time." 
+						},
+						{
+							"title": "What's Next? Sonoma and Los Angeles County Represent Different Alternatives for Addressing Wildfires",
+							"image": "img/ca/legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/ca/new/CA_Land_Loss-01.jpg",							
+							"description": "As development in Los Angeles Country continues, the Wildland-Urban Area (WUI) will expand, putting people and homes at greater risk. Does the county's lack of investment in wildfire prevention suggest imminent catastrophe?" 
+
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 8,
+			"story":{
+				"title":"Homes to Ashes",
+				"subtitle":"Wildfires and Vulnerable Properties",
+				"background":"img/fire.gif",
+				"color":"white",
+				"reverse":true,
+				"float":false
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Bigger wildfires are burning through communities and budgets",
+							"image": "img/ca/new/CA_Sonoma_Tubbs-01.jpg",
+							"description": "In October, 2017, the Tubbs Fire raged through Santa Rosa, California, causing catastrophic damage to the city and its infrastructure. When the smoke finally cleared, the wildfire had proven to be the most destructive in state history."
+						},
+						{
+							"title": "Why are wildfires are getting larger?",
+							"subtitle": "Drought plays a key role",
+							"image": "img/ca/new/CA_Drought-01.jpg"
+						},
+						{
+							"title": " Who is most at risk to wildfires?",
+							"subtitle":"Around 1/3 of California’s housing units are located in the wildland-urban interface (WUI).",
+							"image": "img/ca/new/CA_WUI-01.jpg",
+							"description": "Counties with large numbers of homes in the WUI are at a heightened risk of severe fires. Density matters, too. Larger concentrations of homes in the WUI lead to greater risk."
+
+						},
+						{
+							"title": "A longer fire season is exacerbating property damage…",
+							"image": "img/ca/new/CA_MonthlyStructures-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/ca/new/CA_Property_Loss-01.jpg"
+						},
+						{
+							"title": "A Deeper Look: Wildfires Were Most devastating in Santa Rosa City.",
+							"image": "img/ca/new/CA_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Wildfires have a different impact on costs depending on intensity and location.",
+							"image": "img/ca/CA_Money-01.jpg",
+							"description": "The fires in Sonoma County burned through dense areas of housing, driving damage costs up. Fires in Los Angeles County mostly burned in unoccupied areas, leading to lower costs."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/ca/new/CA_LA_Tubbs-01.jpg",
+							"description": "Densely populated Los Angeles would have been devastated by a wildfire event like the Tubbs fire. Increased drought and high risk suggest that a fire of such magnitude could certainly occur somewhere in Los Angeles County. In fact, it may be only a matter of time." 
+						},
+						{
+							"title": "What's Next? Sonoma and Los Angeles County Represent Different Alternatives for Addressing Wildfires",
+							"image": "img/ca/legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/ca/new/CA_Land_Loss-01.jpg",							
+							"description": "As development in Los Angeles Country continues, the Wildland-Urban Area (WUI) will expand, putting people and homes at greater risk. Does the county's lack of investment in wildfire prevention suggest imminent catastrophe?" 
+
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 9,
+			"story":{
+				"title":"Homes to Ashes",
+				"subtitle":"Wildfires and Vulnerable Properties",
+				"background":"img/fire.gif",
+				"color":"white",
+				"reverse":true,
+				"float":true
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Bigger wildfires are burning through communities and budgets",
+							"image": "img/ca/new/CA_Sonoma_Tubbs-01.jpg",
+							"description": "In October, 2017, the Tubbs Fire raged through Santa Rosa, California, causing catastrophic damage to the city and its infrastructure. When the smoke finally cleared, the wildfire had proven to be the most destructive in state history."
+						},
+						{
+							"title": "Why are wildfires are getting larger?",
+							"subtitle": "Drought plays a key role",
+							"image": "img/ca/new/CA_Drought-01.jpg"
+						},
+						{
+							"title": " Who is most at risk to wildfires?",
+							"subtitle":"Around 1/3 of California’s housing units are located in the wildland-urban interface (WUI).",
+							"image": "img/ca/new/CA_WUI-01.jpg",
+							"description": "Counties with large numbers of homes in the WUI are at a heightened risk of severe fires. Density matters, too. Larger concentrations of homes in the WUI lead to greater risk."
+
+						},
+						{
+							"title": "A longer fire season is exacerbating property damage…",
+							"image": "img/ca/new/CA_MonthlyStructures-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/ca/new/CA_Property_Loss-01.jpg"
+						},
+						{
+							"title": "A Deeper Look: Wildfires Were Most devastating in Santa Rosa City.",
+							"image": "img/ca/new/CA_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Wildfires have a different impact on costs depending on intensity and location.",
+							"image": "img/ca/CA_Money-01.jpg",
+							"description": "The fires in Sonoma County burned through dense areas of housing, driving damage costs up. Fires in Los Angeles County mostly burned in unoccupied areas, leading to lower costs."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/ca/new/CA_LA_Tubbs-01.jpg",
+							"description": "Densely populated Los Angeles would have been devastated by a wildfire event like the Tubbs fire. Increased drought and high risk suggest that a fire of such magnitude could certainly occur somewhere in Los Angeles County. In fact, it may be only a matter of time." 
+						},
+						{
+							"title": "What's Next? Sonoma and Los Angeles County Represent Different Alternatives for Addressing Wildfires",
+							"image": "img/ca/legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/ca/new/CA_Land_Loss-01.jpg",							
+							"description": "As development in Los Angeles Country continues, the Wildland-Urban Area (WUI) will expand, putting people and homes at greater risk. Does the county's lack of investment in wildfire prevention suggest imminent catastrophe?" 
+
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 10,
+			"story":{
+				"title":"Homes to Ashes",
+				"subtitle":"Wildfires and Vulnerable Properties",
+				"background":"img/fire.gif",
+				"color":"white",
+				"reverse":false,
+				"float":false
+			},
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Bigger wildfires are burning through communities and budgets",
+							"image": "img/ca/new/CA_Sonoma_Tubbs-01.jpg",
+							"description": "In October, 2017, the Tubbs Fire raged through Santa Rosa, California, causing catastrophic damage to the city and its infrastructure. When the smoke finally cleared, the wildfire had proven to be the most destructive in state history."
+						},
+						{
+							"title": "Why are wildfires are getting larger?",
+							"subtitle": "Drought plays a key role",
+							"image": "img/ca/new/CA_Drought-01.jpg"
+						},
+						{
+							"title": " Who is most at risk to wildfires?",
+							"subtitle":"Around 1/3 of California’s housing units are located in the wildland-urban interface (WUI).",
+							"image": "img/ca/new/CA_WUI-01.jpg",
+							"description": "Counties with large numbers of homes in the WUI are at a heightened risk of severe fires. Density matters, too. Larger concentrations of homes in the WUI lead to greater risk."
+
+						},
+						{
+							"title": "A longer fire season is exacerbating property damage…",
+							"image": "img/ca/new/CA_MonthlyStructures-01.jpg"
+						},
+						{
+							"title": "...which is costing billions of dollars.",
+							"image": "img/ca/new/CA_Property_Loss-01.jpg"
+						},
+						{
+							"title": "A Deeper Look: Wildfires Were Most devastating in Santa Rosa City.",
+							"image": "img/ca/new/CA_Deeper_Look-01.jpg"
+						},
+						{
+							"title": "Wildfires have a different impact on costs depending on intensity and location.",
+							"image": "img/ca/CA_Money-01.jpg",
+							"description": "The fires in Sonoma County burned through dense areas of housing, driving damage costs up. Fires in Los Angeles County mostly burned in unoccupied areas, leading to lower costs."
+						},
+						{
+							"title": "What could have happened?",
+							"image": "img/ca/new/CA_LA_Tubbs-01.jpg",
+							"description": "Densely populated Los Angeles would have been devastated by a wildfire event like the Tubbs fire. Increased drought and high risk suggest that a fire of such magnitude could certainly occur somewhere in Los Angeles County. In fact, it may be only a matter of time." 
+						},
+						{
+							"title": "What's Next? Sonoma and Los Angeles County Represent Different Alternatives for Addressing Wildfires",
+							"image": "img/ca/legislation-01.jpg"
+						},
+						{
+							"title": "What does the future hold?",
+							"image": "img/ca/new/CA_Land_Loss-01.jpg",							
+							"description": "As development in Los Angeles Country continues, the Wildland-Urban Area (WUI) will expand, putting people and homes at greater risk. Does the county's lack of investment in wildfire prevention suggest imminent catastrophe?" 
+
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 11,
+			"fullpage":true,
+			"sets": [
+				{
+					"set": 1,
+					"blocks": [
+						{
+							"title": "Comprehension"
+						},
+						{
+							"ask": "In your own words, please summarize the story.",
+							"input": {
+								"type": "text"
+							}
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				},
+				{
+					"set": 2,
+					"blocks": [
+						{
+							"title": "Reaction"
+						},
+						{
+							"title": "Likert Test",
+							"ask": "How did you find the visual story?",
+							"input": {
+								"type": "matrix",
+								"items": [
+									{
+										"text": "Activating",
+										"label": "activating"
+									},
+									{
+										"text": "Deactivating",
+										"label": "deactivating"
+									},
+									{
+										"text": "Pleasant",
+										"label": "pleasant"
+									},
+									{
+										"text": "Unpleasant",
+										"label": "unpleasant"
+									}
+								],
+								"options": [
+									{
+										"text": "1"
+									},
+									{
+										"text": "2"
+									},
+									{
+										"text": "3"
+									},
+									{
+										"text": "4"
+									},
+									{
+										"text": "5"
+									},
+									{
+										"text": "6"
+									},
+									{
+										"text": "7"
+									}
+								]
+							}
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					],
+					"resetMap":true
+				},
+				{
+					"set": 3,
+					"blocks": [
+						{
+							"title": "Comprehension"
+						},
+						{
+							"ask": "What was rainfall in Houston in August?",
+							"input": {
+								"type": "radios",
+								"options": [
+									{
+										"text": "20 inches"
+									},
+									{
+										"text": "25 inches"
+									},
+									{
+										"text": "30 inches"
+									},
+									{
+										"text": "35 inches"
+									},
+									{
+										"text": "40 inches"
+									}
+								]
+							}
+						}
+					],
+					"buttons": [
+						"back",
+						"submit"
+					],
+					"resetMap":true
+				}]
+		},
+		{
+			"page": 12,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "End of Survey",
+							"ask": "Thank you for taking this survey. You really rock.",
+							"description": "Because this set has no buttons, the participant will not be able to navigate to a different part of the survey."
+						}
+					]
+				}
+			]
+		}
+	]
+}
